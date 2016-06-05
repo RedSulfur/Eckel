@@ -1,0 +1,58 @@
+/*!   C'est un mot qu'on dirait inventé        pour elle
+Это слово будто создано для нее,
+Quand elle danse et qu'elle met
+   Когда она танцует, обнажая
+Son corps а        jour, tel
+Свое тело, она словно
+Un oiseau qui étend ses ailes pour s'envoler
+   Птица, ч        то расправляет крылья, чтоб улететь,
+Alors je sens l'enfer s'ouvrir
+Тогда я чувствую, как ад разверзается
+Sous mes pieds
+У меня под ногами..
+J'ai posé mes          yeux sous sa robe de gitane
+Источник: http://www.amalgama-lab.com/songs/n/notre_dame_de_paris/belle.html
+© Лингво-лаборатория «Амальгама»: http://www.amalgama-lab.com/. !*/
+
+package com.preparation.strings;
+
+import java.io.*;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+public class TheReplacements {
+
+    public static void main(String[] args) {
+
+
+        try {
+            FileInputStream fileInputStream = new FileInputStream("/home/sulfur/IdeaProjects/Preparation/Theory/strings/src/main/java/com/preparation/strings/Replacements.txt");
+            DataInputStream dataInputStream = new DataInputStream(fileInputStream);
+            BufferedReader reader = new BufferedReader(new InputStreamReader(dataInputStream));
+            Pattern pattern = Pattern.compile("/\\*!(.*)!\\*/",Pattern.DOTALL);
+            String str, inner;
+            StringBuilder sb = new StringBuilder();
+            while ((str = reader.readLine()) != null) {
+                sb.append(str);
+            }
+            String text = sb.toString();
+            Matcher m = pattern.matcher(text);
+
+            while (m.find()) {
+                inner = m.group(1);
+
+                // 2 or more occurrences of the preceding expression
+                str.replaceAll(" {2,}", " ");
+            }
+
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+    }
+
+
+
+}

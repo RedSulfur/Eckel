@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Topics/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Topics/Arrays/Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/NIO/NIO.iml" filepath="$PROJECT_DIR$/Theory/NIO/NIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Preparation.iml" filepath="$PROJECT_DIR$/Preparation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/Theory.iml" filepath="$PROJECT_DIR$/Theory/Theory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topics/Topics.iml" filepath="$PROJECT_DIR$/Topics/Topics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topics/algorithms/algorithms.iml" filepath="$PROJECT_DIR$/Topics/algorithms/algorithms.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/collections/collections.iml" filepath="$PROJECT_DIR$/Theory/collections/collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/composition/composition.iml" filepath="$PROJECT_DIR$/Theory/composition/composition.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/exception-handling/exception-handling.iml" filepath="$PROJECT_DIR$/Theory/exception-handling/exception-handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/inner-classes/inner-classes.iml" filepath="$PROJECT_DIR$/Theory/inner-classes/inner-classes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/Theory/interfaces/interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/Theory/multithreading/multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Topics/recursion/recursion.iml" filepath="$PROJECT_DIR$/Topics/recursion/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/strings/strings.iml" filepath="$PROJECT_DIR$/Theory/strings/strings.iml" />
+    </modules>
+  </component>
+</project>

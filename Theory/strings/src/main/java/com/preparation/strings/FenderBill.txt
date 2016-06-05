@@ -1,0 +1,7 @@
+Article               Quantity Price        
+--------------------- -------- ---------    
+Fender Jazzmaster        2     14999.99 
+Fender Telecaster        1     12999.99 
+Fender Stratocaster      3     15999.99 
+                               ---------    
+Total                          43999.97    
