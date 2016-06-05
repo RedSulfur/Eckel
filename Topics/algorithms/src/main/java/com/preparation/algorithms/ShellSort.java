@@ -6,7 +6,39 @@ public class ShellSort {
 
     public void sort() {
 
-        
+        int outer, inner, temp;
+        int interval = 1;
+
+        while (interval <= arraySize/3) {
+
+            interval = interval * 3 + 1;
+
+        }
+
+        while (interval > 0) {
+
+            for (outer = interval; outer < arraySize; outer++) {
+
+                inner = outer;
+
+                temp = theArray[inner];
+
+                while (inner > interval - 1 &&
+                        temp <= theArray[inner - interval]) {
+
+                    theArray[inner] = theArray[inner - interval];
+
+                    inner = inner - interval;
+
+                }
+
+                theArray[inner] = temp;
+
+            }
+
+            interval = (interval - 1) / 3;
+
+        }
 
     }
 
