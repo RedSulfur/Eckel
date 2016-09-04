@@ -20,7 +20,7 @@ public class Grep {
 
             Matcher m = p.matcher("");
 
-            File file = new File("/home/sulfur/IdeaProjects/Preparation/Theory/strings/src/main/java/com/preparation/strings/Grep.java");
+            File file = new File("/home/sulfur/IdeaProjects/Preparation/Theory/practice/src/main/java/com/preparation/practice/Grep.java");
 
             Scanner scanner = new Scanner(file);
 

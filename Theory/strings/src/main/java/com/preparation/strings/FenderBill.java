@@ -32,7 +32,7 @@ public class FenderBill {
         f.format("%-21s %8s %-12.2f", "Total", "", total);
     }
 
-//    public static final String fileOut = "/home/sulfur/IdeaProjects/Preparation/Theory/strings/src/main/java/com/preparation/strings/FenderBill.txt";
+//    public static final String fileOut = "/home/sulfur/IdeaProjects/Preparation/Theory/practice/src/main/java/com/preparation/practice/FenderBill.txt";
 
     public static void main(String[] args) {
 

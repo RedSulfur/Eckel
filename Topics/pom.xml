@@ -22,6 +22,10 @@
         <module>Arrays</module>
         <module>algorithms</module>
         <module>recursion</module>
+        <module>interview</module>
+        <module>quizful</module>
+        <module>Stringns-Regexes</module>
+        <module>data-structures</module>
     </modules>
 
 </project>

@@ -20,7 +20,7 @@ public class TheReplacements {
 
 
         try {
-            String text = BufferedInputFile.read("/home/sulfur/IdeaProjects/Preparation/Theory/strings/src/main/java/com/preparation/strings/TheReplacements.java");
+            String text = BufferedInputFile.read("/home/sulfur/IdeaProjects/Preparation/Theory/practice/src/main/java/com/preparation/practice/TheReplacements.java");
             Pattern pattern = Pattern.compile("/\\*!(.*)!\\*/",Pattern.DOTALL);
             String inner;
             Matcher matcher = pattern.matcher(text);

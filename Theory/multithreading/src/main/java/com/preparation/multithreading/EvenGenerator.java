@@ -1,20 +1,19 @@
 package com.preparation.multithreading;
 
+public class EvenGenerator extends IntGenerator {
 
+    private int currentEvenValue = 0;
 
-public class EvenGenerator extends IntGenerator{
-
-    private int value = 0;
     @Override
-    public int next() {
-        value++;
-        value++;
-        return value;
+    //Remove synchronized and see what happens
+    public synchronized int next() {
+        currentEvenValue++;
+        Thread.yield();
+        currentEvenValue++;
+        return currentEvenValue;
     }
 
     public static void main(String[] args) {
-
         EvenChecker.test(new EvenGenerator());
-
     }
 }

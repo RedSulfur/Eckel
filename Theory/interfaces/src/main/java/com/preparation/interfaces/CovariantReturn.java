@@ -35,9 +35,14 @@ public class CovariantReturn {
 
     public static void main(String[] args) {
 
+        java.lang.Integer val = new java.lang.Integer(1);
+        System.out.println(val.getClass().getClassLoader()); //null
+
         Mill m = new Mill();
         Grain g = m.process();
         System.out.println(g);
+
+        System.out.println(m.getClass().getClassLoader()); //not null
 
         m = new WheatMill();
         g = m.process();

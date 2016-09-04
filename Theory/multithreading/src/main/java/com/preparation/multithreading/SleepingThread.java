@@ -5,7 +5,8 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-public class SleepingThread extends LiftOff{
+public class SleepingThread extends LiftOff {
+
     public void run() {
 
         try {
