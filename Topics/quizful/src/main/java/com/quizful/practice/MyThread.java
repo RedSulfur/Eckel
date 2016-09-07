@@ -16,5 +16,4 @@ public class MyThread extends Thread {
         System.out.println("About to run thread");
         new MyThread("Run, Run, Run!").start();
     }
-
 }
