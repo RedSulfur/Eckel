@@ -15,7 +15,6 @@ public class SortAlgorithms {
             }
         }
     }
-
     public static void binarySearch(Comparable key, Comparable[] values) {
 
         int arraySize = values.length;
@@ -36,6 +35,35 @@ public class SortAlgorithms {
         }
     }
 
+    public static void selectionSort(Comparable[] values) {
+
+        int arraySize = values.length;
+
+        for(int x = 0; x < arraySize; x++) {
+            int minimum = x;
+            for(int y = x; y < arraySize; y++) {
+                if(values[minimum].compareTo(values[y]) > 0) minimum = y;
+            }
+            swapValues(x, minimum, values);
+        }
+    }
+
+    public static void insertionSort(Comparable[] values) {
+
+        int arraySize = values.length;
+
+        for(int i = 1; i < arraySize; i++) {
+            Comparable temp = values[i];
+            int j = i;
+            while((j > 0) && (values[j - 1].compareTo(temp)) > 0) {
+//                5, 6, 19, 7, 18, 19, 3, 1, 15, 4
+                values[j] = values[j - 1];
+                j--;
+            }
+            values[j] = temp;
+        }
+    }
+
     private static void swapValues(int index1, int index2, Comparable[] values) {
         Comparable temp = values[index1];
         values[index1] = values[index2];
@@ -45,8 +73,10 @@ public class SortAlgorithms {
     public static void main(String[] args) {
 
         Integer[] integers = new Integer[] {5, 6, 19, 7, 18, 19, 3, 1, 15, 4};
-        bubbleSort(integers);
+//        bubbleSort(integers);
+//        selectionSort(integers);
+        insertionSort(integers);
         System.out.println(Arrays.toString(integers));
-        binarySearch(18, integers);
+        binarySearch(15, integers);
     }
 }
