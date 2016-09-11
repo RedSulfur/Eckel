@@ -9,37 +9,28 @@ public class ShellSort {
         int outer, inner, temp;
         int interval = 1;
 
-        while (interval <= arraySize/3) {
-
+        while(interval <= arraySize / 3) {
             interval = interval * 3 + 1;
-
         }
 
         while (interval > 0) {
 
-            for (outer = interval; outer < arraySize; outer++) {
+            for(outer = interval; outer < arraySize; outer++) {
 
                 inner = outer;
+                temp = theArray[inner]; //inner --> outer
 
-                temp = theArray[inner];
-
-                while (inner > interval - 1 &&
-                        temp <= theArray[inner - interval]) {
+                while (inner > interval - 1
+                        && theArray[inner - interval] >= temp) {
 
                     theArray[inner] = theArray[inner - interval];
-
-                    inner = inner - interval;
-
+                    inner -= interval;
                 }
 
                 theArray[inner] = temp;
-
             }
-
-            interval = (interval - 1) / 3;
-
+            interval = (interval - 1)/3;
         }
-
     }
 
 
