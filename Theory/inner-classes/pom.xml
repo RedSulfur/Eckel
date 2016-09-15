@@ -13,17 +13,11 @@
     <groupId>com.preparation.theory</groupId>
     <artifactId>inner-classes</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
 
-    <dependencies>
-        <dependency>
-            <groupId>com.preparation.theory</groupId>
-            <artifactId>composition</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>system</scope>
-        </dependency>
-
-    </dependencies>
-
-
+    <dependency>
+        <groupId>com.preparation.theory</groupId>
+        <artifactId>composition</artifactId>
+        <version>1.0-SNAPSHOT</version>
+        <scope>system</scope>
+    </dependency>
 </project>

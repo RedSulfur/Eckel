@@ -3,8 +3,8 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>com.preparation.topics</groupId>
-        <artifactId>various</artifactId>
+        <groupId>com.preparation</groupId>
+        <artifactId>topics</artifactId>
         <version>1.0-SNAPSHOT</version>
         <relativePath>../</relativePath>
     </parent>
@@ -18,14 +18,9 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.6</source>
-                    <target>1.6</target>
-                </configuration>
             </plugin>
         </plugins>
     </build>
-    <packaging>jar</packaging>
 
     <dependencies>
         <dependency>
@@ -35,6 +30,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
 </project>
