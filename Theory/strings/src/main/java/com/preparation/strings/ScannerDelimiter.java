@@ -2,9 +2,6 @@ package com.preparation.strings;
 
 import java.util.Scanner;
 
-/**
- * Created by sulfur on 23.04.16.
- */
 public class ScannerDelimiter {
 
     public static void main(String[] args) {
@@ -17,5 +14,4 @@ public class ScannerDelimiter {
         }
 
     }
-
 }

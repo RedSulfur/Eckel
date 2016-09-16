@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/Topics/Arrays/Arrays.iml" filepath="$PROJECT_DIR$/Topics/Arrays/Arrays.iml" />
       <module fileurl="file://$PROJECT_DIR$/Theory/NIO/NIO.iml" filepath="$PROJECT_DIR$/Theory/NIO/NIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/Preparation.iml" filepath="$PROJECT_DIR$/Preparation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid/Solid.iml" filepath="$PROJECT_DIR$/Solid/Solid.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/Stringns-Regexes/Stringns-Regexes.iml" filepath="$PROJECT_DIR$/Topics/Stringns-Regexes/Stringns-Regexes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Theory/Theory.iml" filepath="$PROJECT_DIR$/Theory/Theory.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/Topics.iml" filepath="$PROJECT_DIR$/Topics/Topics.iml" />
@@ -19,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/Theory/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/Theory/multithreading/multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/quizful/quizful.iml" filepath="$PROJECT_DIR$/Topics/quizful/quizful.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/recursion/recursion.iml" filepath="$PROJECT_DIR$/Topics/recursion/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Solid/single-responsibility/single-responsibility.iml" filepath="$PROJECT_DIR$/Solid/single-responsibility/single-responsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/Theory/strings/strings.iml" filepath="$PROJECT_DIR$/Theory/strings/strings.iml" />
     </modules>
   </component>

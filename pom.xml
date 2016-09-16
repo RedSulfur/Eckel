@@ -10,6 +10,7 @@
     <modules>
         <module>Theory</module>
         <module>Topics</module>
+        <module>Solid</module>
     </modules>
     <packaging>pom</packaging>
 

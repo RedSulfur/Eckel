@@ -22,6 +22,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="algorithms" />
         <module name="Arrays" />
         <module name="collections" />
         <module name="composition" />
@@ -34,18 +35,19 @@
         <module name="NIO" />
         <module name="quizful" />
         <module name="recursion" />
+        <module name="single-responsibility" />
         <module name="Stringns-Regexes" />
         <module name="strings" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="algorithms" target="1.8" />
-      <module name="Arrays" target="1.6" />
+      <module name="Arrays" target="1.8" />
       <module name="collections" target="1.8" />
       <module name="composition" target="1.8" />
       <module name="data-structures" target="1.8" />
       <module name="exception-handling" target="1.8" />
-      <module name="inner-classes" target="1.5" />
+      <module name="inner-classes" target="1.8" />
       <module name="interfaces" target="1.8" />
       <module name="interview" target="1.8" />
       <module name="multithreading" target="1.8" />
@@ -53,6 +55,9 @@
       <module name="Preparation" target="1.5" />
       <module name="quizful" target="1.8" />
       <module name="recursion" target="1.8" />
+      <module name="single-responsibility" target="1.5" />
+      <module name="solid" target="1.5" />
+      <module name="Solid" target="1.5" />
       <module name="Stringns-Regexes" target="1.8" />
       <module name="strings" target="1.8" />
       <module name="Theory" target="1.8" />
