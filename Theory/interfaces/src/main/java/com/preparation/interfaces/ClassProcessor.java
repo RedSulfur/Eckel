@@ -47,24 +47,19 @@ class Split extends Processor {
 
 //Метод содержит фиксированную часть алгоритма, а обьект стратегии - переменную
 
-
-
-
 public class ClassProcessor {
 
-        public static void process(Processor p, Object s) {
-            System.out.println("Используется процессор " + p.name());
-            System.out.println(p.process(s));
-        }
+    public static void process(Processor p, Object s) {
+        System.out.println("Используется процессор " + p.name());
+        System.out.println(p.process(s));
+    }
 
     public static String s = "Gently my mind escapes to relxing mode of pleasure";
 
     public static void main(String[] args) {
+
         process(new UpCase(), s);
         process(new LoCase(), s);
         process(new Split(), s);
-
     }
-
-
 }

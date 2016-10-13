@@ -2,18 +2,10 @@ package com.preparation.interfaces;
 
 import java.util.Arrays;
 
-
-/**
- * Created by sulfur on 05.04.16.
- */
-
-
-
-        interface ProcessorVol2 {
-        Object process(Object input);
-        String name();
-        }
-
+interface ProcessorVol2 {
+    Object process(Object input);
+    String name();
+}
 
 public class ProcessorRework {
 
@@ -39,7 +31,6 @@ public static void process(ProcessorVol2 p,Object s){
                 ProcessorRework.process(new LowerCase(), s);
                 ProcessorRework.process(new Splitter(), s);
             }
-
         }
 
 class UpperCase extends StringProcessor {
@@ -59,10 +50,3 @@ class Splitter extends StringProcessor {
         return Arrays.toString(((String) input).split(" "));
     }
 }
-
-
-
-
-
-
-

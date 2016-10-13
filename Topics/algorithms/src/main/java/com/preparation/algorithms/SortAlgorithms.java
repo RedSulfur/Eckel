@@ -9,10 +9,15 @@ public class SortAlgorithms {
         int arraySize = values.length;
         for (int i = arraySize - 1; i > 1; i--) {
             for (int j = 0; j < i; j++) {
+                System.out.print(" j is equals to: " + j + " swapping " + values[j]
+                        + " and " + values[j + 1]);
                 if(values[j].compareTo(values[j + 1]) > 0) {
                     swapValues(j, j + 1, values);
                 }
             }
+            System.out.println();
+            System.out.println(Arrays.toString(values));
+            System.out.println();
         }
     }
     public static void binarySearch(Comparable key, Comparable[] values) {
@@ -73,9 +78,9 @@ public class SortAlgorithms {
     public static void main(String[] args) {
 
         Integer[] integers = new Integer[] {5, 6, 19, 7, 18, 19, 3, 1, 15, 4};
-//        bubbleSort(integers);
+        bubbleSort(integers);
 //        selectionSort(integers);
-        insertionSort(integers);
+//        insertionSort(integers);
         System.out.println(Arrays.toString(integers));
         binarySearch(15, integers);
     }
