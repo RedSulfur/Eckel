@@ -5,84 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13874e9c-4e85-4ca4-9cf3-98e7d7149e4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/Apply.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/BandPass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/Filter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/FilterAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/HighPass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/LowPass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/Waveform.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/pre/MergeSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/data-structures/src/main/java/com/preparation/structures/qeue/Stack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/CodingBatRecursion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/recursion/src/test/java/com/preparation/recursion/codingBatRecursionTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Solid/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Solid/single-responsibility/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/codingBatRecursion.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Topics/recursion/target/classes/com/preparation/recursion/codingBatRecursion.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/ActionCharacter.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/ActionCharacter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/AdaptedRandomDoubles.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/AdaptedRandomDoubles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Adventure.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Adventure.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Brass.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Brass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/CanFight.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/CanFight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/CanFly.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/CanFly.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/CanSwin.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/CanSwin.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Checkers.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Checkers.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Chess.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Chess.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/ClassProcessor.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/ClassProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/CovariantReturn.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/CovariantReturn.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/DangerousMonster.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/DangerousMonster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/DragonZilla.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/DragonZilla.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/FactoryPattern.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/FactoryPattern.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Filter.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Filter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/FilterAdapter.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/FilterAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Game.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Game.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/GameFactory.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/GameFactory.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Games.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Games.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Grain.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Grain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Hero.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Hero.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/HighPass.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/HighPass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/HorrorShow.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/HorrorShow.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Instrument.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Instrument.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Lethal.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Lethal.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/LoCase.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/LoCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/LowPass.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/LowPass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/LowerCase.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/LowerCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Mill.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Mill.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Monster.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Monster.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Music5.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Music5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Note.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Note.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Percussion.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Percussion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Processor.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Processor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/ProcessorRework.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/ProcessorRework.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/ProcessorVol2.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/ProcessorVol2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/RandomDoubles.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/RandomDoubles.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/RandomDoublesWithImplementation.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/RandomDoublesWithImplementation.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Split.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Split.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Splitter.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Splitter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/StringProcessor.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/StringProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Stringed.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Stringed.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/UpCase.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/UpCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/UpperCase.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/UpperCase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/UtilizeProcessor.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/UtilizeProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Vampire.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Vampire.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/VeryBadVampire.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/VeryBadVampire.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Waveform.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Waveform.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Wheat.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Wheat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/WheatMill.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/WheatMill.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Wind.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Wind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Woodwind.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/Woodwind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/interfaceProcessor.class" afterPath="$PROJECT_DIR$/Theory/interfaces/target/classes/com/preparation/interfaces/interfaceProcessor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/mergesort_vogella/MergeSort.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/mergesort_vogella/MergeSortTest.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/interview/src/main/java/com/preparation/totics/interview/PrimitiveTypes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/Gizmo.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/Gizmo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/centeredAverage.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/centeredAverage.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/firstLast6.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/firstLast6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/make2.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/make2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/maxEnd3.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/maxEnd3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/only14.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/only14.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/post4.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/post4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/sum67.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/sum67.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/test.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/classes/com/preparation/arrays/test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/centeredAverageTest.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/centeredAverageTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/firstLast6Test.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/firstLast6Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/make2Test.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/make2Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/maxEnd3Test.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/maxEnd3Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/only14Test.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/only14Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/sum67Test.class" afterPath="$PROJECT_DIR$/Topics/Arrays/target/test-classes/com/preparation/arrays/sum67Test.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/ClassProcessor.java" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/ClassProcessor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/ProcessorRework.java" afterPath="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/ProcessorRework.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/algorithms/algorithms.iml" afterPath="$PROJECT_DIR$/Topics/algorithms/algorithms.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/algorithms/pom.xml" afterPath="$PROJECT_DIR$/Topics/algorithms/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/SortAlgorithms.java" afterPath="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/SortAlgorithms.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/pom.xml" afterPath="$PROJECT_DIR$/Topics/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/recursion/pom.xml" afterPath="$PROJECT_DIR$/Topics/recursion/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/recursion/recursion.iml" afterPath="$PROJECT_DIR$/Topics/recursion/recursion.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="Preparation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -128,40 +72,28 @@
     <favorites_list name="Preparation" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45585996">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="CodingBatRecursion.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/CodingBatRecursion.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-417">
-                  <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="codingBatRecursionTest.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Topics/recursion/src/test/java/com/preparation/recursion/codingBatRecursionTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="353">
-                  <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#429#430#0" expanded="true" />
-                    <element signature="e#481#482#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="MergeSort.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/mergesort_vogella/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="18">
+              <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MergeSortTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/mergesort_vogella/MergeSortTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1080">
+              <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -183,14 +115,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Theory/exception-handling/pom.xml" />
-        <option value="$PROJECT_DIR$/Theory/composition/pom.xml" />
-        <option value="$PROJECT_DIR$/Theory/interfaces/pom.xml" />
-        <option value="$PROJECT_DIR$/Theory/NIO/pom.xml" />
         <option value="$PROJECT_DIR$/Theory/collections/pom.xml" />
         <option value="$PROJECT_DIR$/Theory/multithreading/pom.xml" />
         <option value="$PROJECT_DIR$/Theory/strings/pom.xml" />
-        <option value="$PROJECT_DIR$/Topics/algorithms/pom.xml" />
         <option value="$PROJECT_DIR$/Topics/Arrays/pom.xml" />
         <option value="$PROJECT_DIR$/Topics/data-structures/pom.xml" />
         <option value="$PROJECT_DIR$/Topics/interview/pom.xml" />
@@ -226,14 +153,19 @@
         <option value="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/BandPass.java" />
         <option value="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/Apply.java" />
         <option value="$PROJECT_DIR$/Theory/interfaces/src/main/java/com/preparation/interfaces/interface_implementation_separation/HighPass.java" />
-        <option value="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/SortAlgorithms.java" />
         <option value="$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/codingBatRecursion.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/Some.java" />
         <option value="$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/CodingBatRecursion.java" />
-        <option value="$PROJECT_DIR$/Topics/pom.xml" />
         <option value="$PROJECT_DIR$/Topics/recursion/pom.xml" />
         <option value="$PROJECT_DIR$/Topics/recursion/src/test/java/com/preparation/recursion/codingBatRecursionTest.java" />
+        <option value="$PROJECT_DIR$/Topics/interview/src/main/java/com/preparation/totics/interview/PrimitiveTypes.java" />
+        <option value="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/SortAlgorithms.java" />
+        <option value="$PROJECT_DIR$/Topics/pom.xml" />
+        <option value="$PROJECT_DIR$/Topics/algorithms/pom.xml" />
+        <option value="$PROJECT_DIR$/Topics/Arrays/src/main/java/com.preparation.arrays/Test.java" />
+        <option value="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/mergesort_vogella/MergeSort.java" />
+        <option value="$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/mergesort_vogella/MergeSortTest.java" />
       </list>
     </option>
   </component>
@@ -259,9 +191,10 @@
     <treeState />
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="27" />
-    <option name="width" value="1366" />
-    <option name="height" value="741" />
+    <option name="width" value="1368" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -319,11 +252,108 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
-        <subPane />
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preparation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preparation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eckel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preparation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eckel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Topics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preparation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eckel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Topics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preparation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eckel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Topics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="algorithms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Preparation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Eckel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Theory" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -355,20 +385,20 @@
       <recent name="$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.codingBatRecursionTest.shouldSubstituteXWithY">
-    <configuration default="false" name="codingBatRecursionTest.shouldReturnOneIfPowerIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MergeSortTest.testMergeSortPerformance">
+    <configuration default="false" name="MergeSortTest.shouldReturnSortedArrayOnValidInput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.preparation.recursion.*" />
+          <option name="PATTERN" value="com.preparation.algorithms.mergesort_vogella.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="recursion" />
+      <module name="algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.preparation.recursion" />
-      <option name="MAIN_CLASS_NAME" value="com.preparation.recursion.codingBatRecursionTest" />
-      <option name="METHOD_NAME" value="shouldReturnOneIfPowerIsZero" />
+      <option name="PACKAGE_NAME" value="com.preparation.algorithms.mergesort_vogella" />
+      <option name="MAIN_CLASS_NAME" value="com.preparation.algorithms.mergesort_vogella.MergeSortTest" />
+      <option name="METHOD_NAME" value="shouldReturnSortedArrayOnValidInput" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -382,19 +412,39 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="codingBatRecursionTest.shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.preparation.recursion.*" />
+          <option name="PATTERN" value="com.preparation.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="recursion" />
+      <option name="MAIN_CLASS_NAME" value="com.preparation.arrays.Test" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.preparation.recursion" />
-      <option name="MAIN_CLASS_NAME" value="com.preparation.recursion.codingBatRecursionTest" />
-      <option name="METHOD_NAME" value="shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Arrays" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="MergeSortTest.testStandardJavaSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.preparation.algorithms.mergesort_vogella.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="algorithms" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.preparation.algorithms.mergesort_vogella" />
+      <option name="MAIN_CLASS_NAME" value="com.preparation.algorithms.mergesort_vogella.MergeSortTest" />
+      <option name="METHOD_NAME" value="testStandardJavaSort" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -408,19 +458,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="codingBatRecursionTest.changeXY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MergeSortTest.testStandardJavaSortPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.preparation.recursion.*" />
+          <option name="PATTERN" value="com.preparation.algorithms.mergesort_vogella.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="recursion" />
+      <module name="algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.preparation.recursion" />
-      <option name="MAIN_CLASS_NAME" value="com.preparation.recursion.codingBatRecursionTest" />
-      <option name="METHOD_NAME" value="changeXY" />
+      <option name="PACKAGE_NAME" value="com.preparation.algorithms.mergesort_vogella" />
+      <option name="MAIN_CLASS_NAME" value="com.preparation.algorithms.mergesort_vogella.MergeSortTest" />
+      <option name="METHOD_NAME" value="testStandardJavaSortPerformance" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -434,45 +484,19 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="codingBatRecursionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="MergeSortTest.testMergeSortPerformance" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.preparation.recursion.*" />
+          <option name="PATTERN" value="com.preparation.algorithms.mergesort_vogella.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="recursion" />
+      <module name="algorithms" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.preparation.recursion" />
-      <option name="MAIN_CLASS_NAME" value="com.preparation.recursion.codingBatRecursionTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="codingBatRecursionTest.shouldSubstituteXWithY" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.preparation.recursion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="recursion" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.preparation.recursion" />
-      <option name="MAIN_CLASS_NAME" value="com.preparation.recursion.codingBatRecursionTest" />
-      <option name="METHOD_NAME" value="shouldSubstituteXWithY" />
+      <option name="PACKAGE_NAME" value="com.preparation.algorithms.mergesort_vogella" />
+      <option name="MAIN_CLASS_NAME" value="com.preparation.algorithms.mergesort_vogella.MergeSortTest" />
+      <option name="METHOD_NAME" value="testMergeSortPerformance" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -774,19 +798,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest.shouldReturnOneIfPowerIsZero" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest.shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest.changeXY" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest.shouldSubstituteXWithY" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.MergeSortTest.shouldReturnSortedArrayOnValidInput" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest.testStandardJavaSort" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MergeSortTest.testStandardJavaSortPerformance" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MergeSortTest.testMergeSortPerformance" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest.shouldSubstituteXWithY" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest.changeXY" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest.shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.codingBatRecursionTest.shouldReturnOneIfPowerIsZero" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MergeSortTest.testMergeSortPerformance" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MergeSortTest.testStandardJavaSortPerformance" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MergeSortTest.testStandardJavaSort" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MergeSortTest.shouldReturnSortedArrayOnValidInput" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -923,47 +947,55 @@
       <workItem from="1476279973959" duration="16000" />
       <workItem from="1476281820030" duration="94000" />
       <workItem from="1476359205703" duration="3626000" />
-      <workItem from="1476371772985" duration="8565000" />
+      <workItem from="1476371772985" duration="8607000" />
+      <workItem from="1476897948372" duration="1002000" />
+      <workItem from="1476902081224" duration="45000" />
+      <workItem from="1476987678127" duration="1602000" />
+      <workItem from="1477053225925" duration="365000" />
+      <workItem from="1477058416494" duration="429000" />
+      <workItem from="1477072381831" duration="2820000" />
+      <workItem from="1477075813380" duration="2965000" />
+      <workItem from="1477118426436" duration="3727000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="codingBatRecursionTest - 2016.10.13 at 22h 20m 04s.xml">
-      <configuration name="codingBatRecursionTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testMergeSortPerformance - 2016.10.22 at 10h 38m 23s.xml">
+      <configuration name="MergeSortTest.testMergeSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest - 2016.10.13 at 22h 20m 36s.xml">
-      <configuration name="codingBatRecursionTest" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testMergeSortPerformance - 2016.10.22 at 10h 38m 25s.xml">
+      <configuration name="MergeSortTest.testMergeSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest_changeXY - 2016.10.13 at 22h 19m 41s.xml">
-      <configuration name="codingBatRecursionTest.changeXY" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testMergeSortPerformance - 2016.10.22 at 10h 38m 28s.xml">
+      <configuration name="MergeSortTest.testMergeSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest_changeXY - 2016.10.13 at 22h 19m 48s.xml">
-      <configuration name="codingBatRecursionTest.changeXY" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testMergeSortPerformance - 2016.10.22 at 10h 38m 30s.xml">
+      <configuration name="MergeSortTest.testMergeSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest_countHi - 2016.10.13 at 22h 04m 44s.xml">
-      <configuration name="codingBatRecursionTest.countHi" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testMergeSortPerformance - 2016.10.22 at 10h 38m 42s.xml">
+      <configuration name="MergeSortTest.testMergeSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest_shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs - 2016.10.13 at 22h 08m 30s.xml">
-      <configuration name="codingBatRecursionTest.shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testMergeSortPerformance - 2016.10.22 at 10h 38m 45s.xml">
+      <configuration name="MergeSortTest.testMergeSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest_shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs - 2016.10.13 at 22h 08m 37s.xml">
-      <configuration name="codingBatRecursionTest.shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testMergeSortPerformance - 2016.10.22 at 10h 38m 47s.xml">
+      <configuration name="MergeSortTest.testMergeSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest_shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs - 2016.10.13 at 22h 08m 53s.xml">
-      <configuration name="codingBatRecursionTest.shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testMergeSortPerformance - 2016.10.22 at 10h 42m 10s.xml">
+      <configuration name="MergeSortTest.testMergeSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest_shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs - 2016.10.13 at 22h 09m 01s.xml">
-      <configuration name="codingBatRecursionTest.shouldReturnOneIfBaseIsOneRegardlessWhatPowerItIs" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testStandardJavaSortPerformance - 2016.10.22 at 10h 41m 48s.xml">
+      <configuration name="MergeSortTest.testStandardJavaSortPerformance" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="codingBatRecursionTest_shouldReturnOneIfPowerIsZero - 2016.10.13 at 22h 06m 40s.xml">
-      <configuration name="codingBatRecursionTest.shouldReturnOneIfPowerIsZero" configurationId="JUnit" />
+    <history-entry file="MergeSortTest_testStandardJavaSortPerformance - 2016.10.22 at 10h 42m 04s.xml">
+      <configuration name="MergeSortTest.testStandardJavaSortPerformance" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="401882000" />
+    <option name="totallyTimeSpent" value="414879000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1366" height="741" extended-state="0" />
+    <frame x="-1" y="27" width="1368" height="742" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -971,13 +1003,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2153729" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21504559" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63743675" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36363637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26936027" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49578413" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18949772" sideWeight="0.49239543" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2606383" sideWeight="0.49239543" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1047,48 +1079,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings/Grep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings/Groups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings/Immutable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings/InfiniteRecursion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings/ReFlags.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings/Resetting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings/Rudolph.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -1280,18 +1270,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/algorithms/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1299,15 +1281,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="34" column="25" selection-start-line="34" selection-start-column="25" selection-end-line="34" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/SortAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1315,51 +1288,92 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/Some.java">
+    <entry file="file://$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/Some.java" />
+    <entry file="file://$PROJECT_DIR$/Topics/recursion/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="195">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/recursion/src/test/java/com/preparation/recursion/codingBatRecursionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="72" column="30" selection-start-line="72" selection-start-column="30" selection-end-line="72" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/CodingBatRecursion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="45" column="35" selection-start-line="45" selection-start-column="35" selection-end-line="45" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/SortAlgorithms.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1386">
+          <caret line="77" column="25" selection-start-line="77" selection-start-column="25" selection-end-line="77" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Topics/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="37" column="32" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/recursion/pom.xml">
+    <entry file="file://$PROJECT_DIR$/Topics/algorithms/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state relative-caret-position="450">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/recursion/src/main/java/com/preparation/recursion/CodingBatRecursion.java">
+    <entry file="file://$PROJECT_DIR$/Topics/interview/src/main/java/com/preparation/totics/interview/PrimitiveTypes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-417">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state relative-caret-position="72">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/Arrays/src/main/java/com.preparation.arrays/Test.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-92">
+          <caret line="1337" column="24" selection-start-line="1337" selection-start-column="24" selection-end-line="1337" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/recursion/src/test/java/com/preparation/recursion/codingBatRecursionTest.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/Assert.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="72" column="36" selection-start-line="72" selection-start-column="36" selection-end-line="72" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#429#430#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="295">
+          <caret line="83" column="23" selection-start-line="83" selection-start-column="23" selection-end-line="83" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/mergesort_vogella/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/algorithms/src/main/java/com/preparation/algorithms/mergesort_vogella/MergeSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="69" column="45" selection-start-line="69" selection-start-column="45" selection-end-line="69" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>

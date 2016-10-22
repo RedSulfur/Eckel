@@ -61,7 +61,7 @@ public class SortAlgorithms {
             Comparable temp = values[i];
             int j = i;
             while((j > 0) && (values[j - 1].compareTo(temp)) > 0) {
-//                5, 6, 19, 7, 18, 19, 3, 1, 15, 4
+//                7, 6, 19, 5, 18, 19, 3, 1, 15, 4
                 values[j] = values[j - 1];
                 j--;
             }
