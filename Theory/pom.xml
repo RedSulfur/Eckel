@@ -26,6 +26,7 @@
         <module>exception-handling</module>
         <module>strings</module>
         <module>multithreading</module>
+        <module>references</module>
     </modules>
 
     <build>

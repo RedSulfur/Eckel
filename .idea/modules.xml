@@ -19,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/Theory/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/Theory/multithreading/multithreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/quizful/quizful.iml" filepath="$PROJECT_DIR$/Topics/quizful/quizful.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/recursion/recursion.iml" filepath="$PROJECT_DIR$/Topics/recursion/recursion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/references/references.iml" filepath="$PROJECT_DIR$/Theory/references/references.iml" />
       <module fileurl="file://$PROJECT_DIR$/Solid/single-responsibility/single-responsibility.iml" filepath="$PROJECT_DIR$/Solid/single-responsibility/single-responsibility.iml" />
       <module fileurl="file://$PROJECT_DIR$/Theory/strings/strings.iml" filepath="$PROJECT_DIR$/Theory/strings/strings.iml" />
     </modules>

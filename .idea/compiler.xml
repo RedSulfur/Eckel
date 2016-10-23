@@ -35,6 +35,7 @@
         <module name="NIO" />
         <module name="quizful" />
         <module name="recursion" />
+        <module name="references" />
         <module name="single-responsibility" />
         <module name="Stringns-Regexes" />
         <module name="strings" />
@@ -55,6 +56,7 @@
       <module name="Preparation" target="1.5" />
       <module name="quizful" target="1.8" />
       <module name="recursion" target="1.8" />
+      <module name="references" target="1.8" />
       <module name="single-responsibility" target="1.5" />
       <module name="solid" target="1.5" />
       <module name="Solid" target="1.5" />
