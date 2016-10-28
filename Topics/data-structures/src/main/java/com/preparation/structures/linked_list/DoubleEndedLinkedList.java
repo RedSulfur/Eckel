@@ -26,7 +26,6 @@ public class DoubleEndedLinkedList {
             System.out.println(homeOwnerName + " " + houseNumber);
         }
 
-
         @Override
         public String toString() {
             return homeOwnerName;
@@ -38,6 +37,7 @@ public class DoubleEndedLinkedList {
         Neighbour theLink = firstLink;
         while (theLink != null) {
             theLink.display();
+            System.out.println("Previous link: " + theLink.previous);
             System.out.println("Next link: " + theLink.next);
             theLink = theLink.next;
             System.out.println();
@@ -48,45 +48,52 @@ public class DoubleEndedLinkedList {
 
         DoubleEndedLinkedList theLinkedList = new DoubleEndedLinkedList();
         theLinkedList.insertInOrder("Mark Evans", 7);
-        theLinkedList.insertInOrder("John Doe", 9);
-        theLinkedList.insertInOrder("Kali Linux", 6);
-        theLinkedList.insertInOrder("Mark Poulson", 4);
-
-        theLinkedList.insertAfterKey("Kourtney Stark", 5, 4);
-
-        theLinkedList.display();
-
-        System.out.println();
-
-        NeighbourIterator iterator = new NeighbourIterator(theLinkedList);
-
-        iterator.currentNeighbour.display();
-        System.out.println(iterator.hasNext());
-        iterator.next();
-        iterator.currentNeighbour.display();
-        iterator.remove();
-        iterator.currentNeighbour.display();
-
+        theLinkedList.insertInOrder("Derek Doe", 9);
+        theLinkedList.insertInOrder("James Fehn", 8);
+        theLinkedList.insertInOrder("James Paulsen", 4);
         theLinkedList.display();
     }
 
     public void insertInOrder(String homeOwnerName, int houseNumber) {
+        Neighbour theNewLink = new Neighbour(homeOwnerName, houseNumber);
+
+        Neighbour previousNeighbor = null;
+        Neighbour currentNeighbor = firstLink;
+
+        while ((currentNeighbor != null) && (houseNumber > currentNeighbor.houseNumber)){
+            previousNeighbor = currentNeighbor;
+            currentNeighbor = currentNeighbor.next; // Get the next Neighbor
+        }
+        if (previousNeighbor == null) {
+            firstLink = theNewLink;
+        } else {
+            previousNeighbor.next = theNewLink;
+            theNewLink.previous = previousNeighbor;
+            if (currentNeighbor != null)
+            currentNeighbor.previous = theNewLink;
+        }
+        theNewLink.next = currentNeighbor;
+    }
+
+    public boolean insertAfterKey(String homeOwnerName, int houseNumber, int key) {
 
         Neighbour newNeighbour = new Neighbour(homeOwnerName, houseNumber);
+        Neighbour theNeighbour = firstLink;
 
-        Neighbour currentLink = firstLink;
-        Neighbour previousLink = null;
-
-        while (currentLink != null && currentLink.houseNumber < houseNumber) {
-            previousLink = currentLink;
-            currentLink = currentLink.next;
+        while (theNeighbour.houseNumber != key) {
+            theNeighbour = theNeighbour.next;
+            if (theNeighbour == null) return false;
         }
-        if(previousLink == null) {
-            firstLink = newNeighbour;
+        if (theNeighbour == lastLink) {
+            newNeighbour.next = null;
+            lastLink = newNeighbour;
         } else {
-            previousLink.next = newNeighbour;
+            newNeighbour.next = theNeighbour.next;
+            theNeighbour.next.previous = newNeighbour;
         }
-        newNeighbour.next = currentLink;
+        newNeighbour.previous = theNeighbour;
+        theNeighbour.next = newNeighbour;
+        return true;
     }
 
     public void insertInFirstPosition(String homeOwnerName, int houseNumber) {
@@ -114,27 +121,6 @@ public class DoubleEndedLinkedList {
             lastLink.next = newNeighbour;
         }
         lastLink = newNeighbour;
-    }
-
-    public boolean insertAfterKey(String homeOwnerName, int houseNumber, int key) {
-
-        Neighbour newNeighbour = new Neighbour(homeOwnerName, houseNumber);
-        Neighbour theNeighbour = firstLink;
-
-        while (theNeighbour.houseNumber != key) {
-            theNeighbour = theNeighbour.next;
-            if (theNeighbour == null) return false;
-        }
-        if (theNeighbour == lastLink) {
-            newNeighbour.next = null;
-            lastLink = newNeighbour;
-        } else {
-            newNeighbour.next = theNeighbour.next;
-            theNeighbour.next.previous = newNeighbour;
-        }
-        newNeighbour.previous = theNeighbour;
-        theNeighbour.next = newNeighbour;
-        return true;
     }
 
     static class NeighbourIterator {
@@ -165,12 +151,12 @@ public class DoubleEndedLinkedList {
         }
 
         public void remove() {
-
-            if(previousNeighbour == null) {
+            if (previousNeighbour == null) {
                 neighbours.firstLink = currentNeighbour.next;
             } else {
                 previousNeighbour.next = currentNeighbour.next;
-                if(currentNeighbour.next == null) {
+
+                if (currentNeighbour.next == null) {
                     currentNeighbour = neighbours.firstLink;
                     previousNeighbour = null;
                 } else {
@@ -180,4 +166,21 @@ public class DoubleEndedLinkedList {
         }
     }
 }
+//
+//        theLinkedList.insertAfterKey("Kourtney Stark", 5, 4);
+//        System.out.println();
 
+//        NeighbourIterator iterator = new NeighbourIterator(theLinkedList);
+
+//        iterator.currentNeighbour.display();
+//        System.out.println(iterator.hasNext());
+//        iterator.next();
+//        iterator.currentNeighbour.display();
+//        iterator.remove();
+//        iterator.currentNeighbour.display();
+//
+//        theLinkedList.display();
+
+//if(currentLink != null) {
+//        currentLink.previous = newNeighbour;
+//        }

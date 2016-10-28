@@ -1,4 +1,4 @@
-package com.preparation.totics.interview;
+package com.preparation.topics.interview;
 
 /**
  * abba -> a1b2a1

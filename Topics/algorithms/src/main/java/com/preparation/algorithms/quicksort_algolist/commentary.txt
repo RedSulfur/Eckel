@@ -1,0 +1,8 @@
+System.out.println(Arrays.toString(arr));
+        System.out.println("Returning index i = " + i);
+        System.out.println("Returning index j = " + j);
+        if(i > -1 && j > -1) {
+            System.out.println("arr[i]  = " + arr[i]);
+            System.out.println("arr[j]  = " + arr[j]);
+        }
+        System.out.println();

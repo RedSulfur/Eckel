@@ -1,4 +1,4 @@
-package com.preparation.totics.interview;
+package com.preparation.topics.interview;
 
 //http://kostin.ws/java/java-types-and-variables.html
 //http://pr0java.blogspot.com/2015/12/java.html
