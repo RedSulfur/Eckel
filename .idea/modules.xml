@@ -13,6 +13,7 @@
       <module fileurl="file://$PROJECT_DIR$/Theory/composition/composition.iml" filepath="$PROJECT_DIR$/Theory/composition/composition.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/data-structures/data-structures.iml" filepath="$PROJECT_DIR$/Topics/data-structures/data-structures.iml" />
       <module fileurl="file://$PROJECT_DIR$/Theory/exception-handling/exception-handling.iml" filepath="$PROJECT_DIR$/Theory/exception-handling/exception-handling.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Theory/generics/generics.iml" filepath="$PROJECT_DIR$/Theory/generics/generics.iml" />
       <module fileurl="file://$PROJECT_DIR$/Theory/inner-classes/inner-classes.iml" filepath="$PROJECT_DIR$/Theory/inner-classes/inner-classes.iml" />
       <module fileurl="file://$PROJECT_DIR$/Theory/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/Theory/interfaces/interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/interview/interview.iml" filepath="$PROJECT_DIR$/Topics/interview/interview.iml" />

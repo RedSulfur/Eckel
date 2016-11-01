@@ -28,6 +28,7 @@
         <module name="composition" />
         <module name="data-structures" />
         <module name="exception-handling" />
+        <module name="generics" />
         <module name="inner-classes" />
         <module name="interfaces" />
         <module name="interview" />
@@ -48,6 +49,8 @@
       <module name="composition" target="1.8" />
       <module name="data-structures" target="1.8" />
       <module name="exception-handling" target="1.8" />
+      <module name="generics" target="1.8" />
+      <module name="Generics" target="1.8" />
       <module name="inner-classes" target="1.8" />
       <module name="interfaces" target="1.8" />
       <module name="interview" target="1.8" />
