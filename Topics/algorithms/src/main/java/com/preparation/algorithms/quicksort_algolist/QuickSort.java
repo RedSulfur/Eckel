@@ -1,15 +1,10 @@
 package com.preparation.algorithms.quicksort_algolist;
 
-import sun.misc.LRUCache;
-
-import java.lang.ref.SoftReference;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.LinkedHashMap;
 
 public class QuickSort {
 
-    int i, j, pivot;
+    private int i, j, pivot;
 
     public static void main(String[] args) {
 
@@ -27,9 +22,9 @@ public class QuickSort {
         int index = partition(array, left, right);
 
         // Stackoverflow if index is not decremented by 1
-        // Because there is not out from the recursion
-        // when there is only one element in the partial
-        // array left
+        // Because there is no exit from the recursion
+        // when there is only one left element in the
+        // partial array
         if(left < index - 1) {
             quickSort(array, left, index - 1);
         }
@@ -57,9 +52,10 @@ public class QuickSort {
             values will be swapped after i variable enters the part
             of the array where there are only values bigger than pivot.
             So the array will remain unsorted.
-            (In quick sort algorithm array is divided in two parts
-            and after each iteration there are only values lesser than
-            pivot in one half and values bigger than pivot in another)
+            (In quick sort algorithm array is divided into parts
+            and after each iteration there are only values lesser than pivot
+            in one half of the array and values bigger than pivot in another
+            half)
              */
             System.out.println(Arrays.toString(array));
             if(i <= j) {

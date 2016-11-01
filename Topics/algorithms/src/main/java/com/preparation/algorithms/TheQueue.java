@@ -17,7 +17,8 @@ public class TheQueue {
 
     public void insert(String value) {
 
-        if (numberOfItems + 1 <= queueSize) {
+        System.out.println("Number of items: " + numberOfItems);
+        if (numberOfItems <= queueSize) {
 
             queueArray[rear] = value;
             rear++;
@@ -94,17 +95,11 @@ public class TheQueue {
             System.out.println("\n");
         }
 
-
-
-
-
     public static void main(String[] args) {
 
         TheQueue theQueue = new TheQueue(10);
 
-
         theQueue.displayTheQueue();
-        /*
         theQueue.insert("10");
         theQueue.displayTheQueue();
         theQueue.insert("18");
@@ -116,8 +111,13 @@ public class TheQueue {
         theQueue.remove();
         theQueue.displayTheQueue();
         theQueue.insert("17");
+        theQueue.displayTheQueue();theQueue.insert("17");
+        theQueue.displayTheQueue();theQueue.insert("17");
+        theQueue.displayTheQueue();theQueue.insert("17");
+        theQueue.displayTheQueue();theQueue.insert("17");
+        theQueue.displayTheQueue();theQueue.insert("17");
+        theQueue.displayTheQueue();theQueue.insert("17");
+        theQueue.displayTheQueue();theQueue.insert("17");
         theQueue.displayTheQueue();
-        */
-
     }
 }
