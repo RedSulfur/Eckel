@@ -1,9 +1,15 @@
 package princeton.percolation;
 
+import org.hamcrest.Matchers;
 import org.junit.Before;
 import org.junit.Rule;
 import org.junit.Test;
 import org.junit.rules.ExpectedException;
+
+import static org.hamcrest.Matchers.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertTrue;
 
 public class PercolationTest {
 
@@ -14,7 +20,30 @@ public class PercolationTest {
 
     @Before
     public void setUp() throws Exception {
-        percolation = new Percolation(10);
+        percolation = new Percolation(4);
+    }
+    
+    @Test
+    public void shouldFindRootOfTheUnitedElements() {
+        percolation.open(3, 2);
+        percolation.open(3, 2);
+
+    }
+
+    @Test
+    public void shouldDetermineOpenedSite() {
+        percolation.open(3, 2);
+        percolation.open(2, 2);
+
+        assertTrue(percolation.isOpen(3, 2));
+        assertTrue(percolation.isOpen(2, 2));
+        assertThat(percolation.find(2, 2), is(5));
+        assertThat(percolation.find(3, 2), is(5));
+    }
+
+    @Test
+    public void shouldDetermineClosedSite() {
+        assertFalse(percolation.isOpen(3, 2));
     }
 
     @Test

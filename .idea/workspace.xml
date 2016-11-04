@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="13874e9c-4e85-4ca4-9cf3-98e7d7149e4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/FlattenedAndWeightedTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/percolation/Percolation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/WeightedQuickUnion.java" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/WeightedTree.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/WeightedQuickUnionTest.java" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/WeightedQuickUnionTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/percolation/Percolation.java" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/percolation/Percolation.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java" />
     </list>
     <ignored path="Preparation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,34 +65,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Percolation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Percolation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/percolation/Percolation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="84">
+              <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
               <folding>
-                <element signature="e#368#369#0" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#682#683#0" expanded="true" />
-                <element signature="e#928#929#0" expanded="true" />
-                <element signature="e#1001#1002#0" expanded="true" />
-                <element signature="e#1052#1053#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-                <element signature="e#1152#1153#0" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
+                <element signature="e#1843#1874#0" expanded="true" />
+                <element signature="e#3048#3049#0" expanded="true" />
+                <element signature="e#3099#3100#0" expanded="true" />
+                <element signature="e#3345#3346#0" expanded="true" />
+                <element signature="e#3418#3419#0" expanded="true" />
+                <element signature="e#3469#3470#0" expanded="true" />
+                <element signature="e#3514#3515#0" expanded="true" />
+                <element signature="e#3565#3566#0" expanded="true" />
+                <element signature="e#3610#3611#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PercolationTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="PercolationTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-96">
-              <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            <state relative-caret-position="58">
+              <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1114#1115#0" expanded="true" />
+                <element signature="e#1167#1168#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -172,8 +170,8 @@
         <option value="$PROJECT_DIR$/Theory/generics/src/main/java/com.pluralsight.generics/MinFunctionGenerics.java" />
         <option value="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/WeightedQuickUnion.java" />
         <option value="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/WeightedQuickUnionTest.java" />
-        <option value="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java" />
         <option value="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/percolation/Percolation.java" />
+        <option value="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java" />
       </list>
     </option>
   </component>
@@ -262,19 +260,6 @@
     <panes>
       <pane id="PackagesPane">
         <subPane />
-      </pane>
-      <pane id="Scratches">
-        <subPane />
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
       </pane>
       <pane id="ProjectPane">
         <subPane>
@@ -638,6 +623,19 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches">
+        <subPane />
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -676,67 +674,7 @@
       <recent name="$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PercolationTest">
-    <configuration default="false" name="MinFunctionWithoutGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.generics.MinFunctionWithoutGenerics" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="generics" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="MinFunctionGenerics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.pluralsight.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.pluralsight.generics.MinFunctionGenerics" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="generics" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="Percolation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="princeton.percolation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="princeton.percolation.Percolation" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="princeton" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.PercolationTest.shouldDetermineOpenedSite">
     <configuration default="false" name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -777,6 +715,84 @@
       <option name="MAIN_CLASS_NAME" value="princeton.percolation.PercolationTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PercolationTest.unionTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="princeton.percolation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="princeton" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="princeton.percolation" />
+      <option name="MAIN_CLASS_NAME" value="princeton.percolation.PercolationTest" />
+      <option name="METHOD_NAME" value="unionTests" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PercolationTest.shouldDetermineClosedSite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="princeton.percolation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="princeton" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="princeton.percolation" />
+      <option name="MAIN_CLASS_NAME" value="princeton.percolation.PercolationTest" />
+      <option name="METHOD_NAME" value="shouldDetermineClosedSite" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="PercolationTest.shouldDetermineOpenedSite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="princeton.percolation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="princeton" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="princeton.percolation" />
+      <option name="MAIN_CLASS_NAME" value="princeton.percolation.PercolationTest" />
+      <option name="METHOD_NAME" value="shouldDetermineOpenedSite" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1077,19 +1093,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.MinFunctionWithoutGenerics" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MinFunctionGenerics" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Percolation" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.PercolationTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.PercolationTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.PercolationTest.unionTests" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldDetermineClosedSite" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldDetermineOpenedSite" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.PercolationTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Percolation" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MinFunctionGenerics" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MinFunctionWithoutGenerics" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldDetermineOpenedSite" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldDetermineClosedSite" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.PercolationTest.unionTests" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PercolationTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" />
       </list>
     </recent_temporary>
   </component>
@@ -1279,44 +1295,45 @@
       <workItem from="1478260834224" duration="3297000" />
       <workItem from="1478267792466" duration="120000" />
       <workItem from="1478270014922" duration="948000" />
-      <workItem from="1478271072775" duration="3420000" />
+      <workItem from="1478271072775" duration="5459000" />
+      <workItem from="1478281475256" duration="4816000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PercolationTest - 2016.11.04 at 17h 07m 50s.xml">
-      <configuration name="PercolationTest" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 20h 31m 32s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest - 2016.11.04 at 18h 33m 14s.xml">
-      <configuration name="PercolationTest" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 20h 32m 42s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest_shouldThrowAnErrorIfRowsOrColsAreOutOfBound - 2016.11.04 at 17h 03m 16s.xml">
-      <configuration name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 20h 35m 38s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest_shouldThrowAnErrorIfRowsOrColsAreOutOfBound - 2016.11.04 at 17h 03m 41s.xml">
-      <configuration name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 20h 35m 51s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest_shouldThrowAnErrorIfRowsOrColsAreOutOfBound - 2016.11.04 at 17h 04m 42s.xml">
-      <configuration name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 20h 37m 23s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest_shouldThrowAnErrorIfRowsOrColsAreOutOfBound - 2016.11.04 at 17h 05m 38s.xml">
-      <configuration name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 20h 40m 18s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest_shouldThrowAnErrorIfRowsOrColsAreOutOfBound - 2016.11.04 at 17h 06m 05s.xml">
-      <configuration name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 20h 41m 42s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest_shouldThrowAnErrorIfRowsOrColsAreOutOfBound - 2016.11.04 at 17h 06m 36s.xml">
-      <configuration name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 20h 54m 51s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest_shouldThrowAnErrorIfRowsOrColsAreOutOfBound - 2016.11.04 at 17h 06m 47s.xml">
-      <configuration name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 21h 01m 37s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PercolationTest_shouldThrowAnErrorIfRowsOrColsAreOutOfBound - 2016.11.04 at 17h 06m 55s.xml">
-      <configuration name="PercolationTest.shouldThrowAnErrorIfRowsOrColsAreOutOfBound" configurationId="JUnit" />
+    <history-entry file="PercolationTest_shouldDetermineOpenedSite - 2016.11.04 at 21h 04m 55s.xml">
+      <configuration name="PercolationTest.shouldDetermineOpenedSite" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="530615000" />
+    <option name="totallyTimeSpent" value="537470000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1338,7 +1355,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21504559" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48821548" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6060606" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3838384" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1701,26 +1718,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/WeightedQuickUnionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/FlattenedAndWeightedTree.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/WeightedTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1733,31 +1734,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java">
+    <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/WeightedQuickUnionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-96">
-          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="154">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/WeightedTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/percolation/Percolation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="84">
+          <caret line="60" column="47" selection-start-line="60" selection-start-column="47" selection-end-line="60" selection-end-column="47" />
           <folding>
-            <element signature="e#368#369#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#928#929#0" expanded="true" />
-            <element signature="e#1001#1002#0" expanded="true" />
-            <element signature="e#1052#1053#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1152#1153#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
+            <element signature="e#1843#1874#0" expanded="true" />
+            <element signature="e#3048#3049#0" expanded="true" />
+            <element signature="e#3099#3100#0" expanded="true" />
+            <element signature="e#3345#3346#0" expanded="true" />
+            <element signature="e#3418#3419#0" expanded="true" />
+            <element signature="e#3469#3470#0" expanded="true" />
+            <element signature="e#3514#3515#0" expanded="true" />
+            <element signature="e#3565#3566#0" expanded="true" />
+            <element signature="e#3610#3611#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1114#1115#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
           </folding>
         </state>
       </provider>
