@@ -26,7 +26,6 @@
         <module name="Arrays" />
         <module name="collections" />
         <module name="composition" />
-        <module name="data-structures" />
         <module name="exception-handling" />
         <module name="generics" />
         <module name="inner-classes" />
@@ -34,6 +33,7 @@
         <module name="interview" />
         <module name="multithreading" />
         <module name="NIO" />
+        <module name="princeton" />
         <module name="quizful" />
         <module name="recursion" />
         <module name="references" />
@@ -57,12 +57,13 @@
       <module name="multithreading" target="1.8" />
       <module name="NIO" target="1.8" />
       <module name="Preparation" target="1.5" />
+      <module name="princeton" target="1.8" />
       <module name="quizful" target="1.8" />
       <module name="recursion" target="1.8" />
       <module name="references" target="1.8" />
       <module name="single-responsibility" target="1.5" />
-      <module name="solid" target="1.5" />
       <module name="Solid" target="1.5" />
+      <module name="solid" target="1.5" />
       <module name="Stringns-Regexes" target="1.8" />
       <module name="strings" target="1.8" />
       <module name="Theory" target="1.8" />
