@@ -5,11 +5,11 @@ import org.junit.Test;
 
 public class WeightedQuickUnionTest {
 
-    private WeightedTree wqu;
+    private WeightedQuickUnionUF wqu;
 
     @Before
     public void setUp() throws Exception {
-        wqu = new WeightedTree(10);
+        wqu = new WeightedQuickUnionUF(10);
     }
 
     @Test

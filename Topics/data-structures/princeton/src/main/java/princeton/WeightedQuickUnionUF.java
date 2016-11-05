@@ -1,12 +1,12 @@
 package princeton;
 
-public class WeightedTree {
+public class WeightedQuickUnionUF {
 
     private int[] id;
     private int count;
     private int[] sz;
 
-    public WeightedTree(int N) {
+    public WeightedQuickUnionUF(int N) {
 
         id = new int[N];
         for (int i = 0; i < N; i++) {
