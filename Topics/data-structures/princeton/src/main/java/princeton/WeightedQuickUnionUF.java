@@ -19,6 +19,10 @@ public class WeightedQuickUnionUF {
         }
     }
 
+    public boolean connected(int p, int q) {
+        return find(p) == find(q);
+    }
+
     public int find(int p) {
         while (p != id[p]) p = id[p];
         return p;

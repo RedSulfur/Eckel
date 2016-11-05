@@ -21,5 +21,10 @@
             <groupId>org.hamcrest</groupId>
             <artifactId>hamcrest-all</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.preparation.topics</groupId>
+            <artifactId>data-structures</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 </project>
