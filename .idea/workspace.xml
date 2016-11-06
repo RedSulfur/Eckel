@@ -7,18 +7,7 @@
     <bookmark url="file://$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings/FenderBill.java" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13874e9c-4e85-4ca4-9cf3-98e7d7149e4a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/generics/src/main/java/com.pluralsight.generics/bounded_wildcards/LowerBoundedWildcard.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/generics/src/main/java/com.pluralsight.generics/bounded_wildcards/UpperBoundedWildcards.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Theory/generics/src/test/java/com/pluralsight/generics/bounded_wildcards/InboundWildcardTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/checkstyle-coursera.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Theory/generics/pom.xml" afterPath="$PROJECT_DIR$/Theory/generics/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/WeightedQuickUnionUF.java" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/WeightedQuickUnionUF.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/percolation/Percolation.java" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/percolation/Percolation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java" afterPath="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Topics/data-structures/src/main/java/com/preparation/structures/queue/Queue.java" afterPath="$PROJECT_DIR$/Topics/data-structures/src/main/java/com/preparation/structures/queue/Queue.java" />
-    </list>
+    <list default="true" id="13874e9c-4e85-4ca4-9cf3-98e7d7149e4a" name="Default" comment="" />
     <ignored path="Preparation.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -78,11 +67,31 @@
       <file leaf-file-name="InboundWildcardTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Theory/generics/src/test/java/com/pluralsight/generics/bounded_wildcards/InboundWildcardTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+            <state relative-caret-position="216">
+              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Theory/generics/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Topics/data-structures/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -155,11 +164,11 @@
         <option value="$PROJECT_DIR$/Topics/data-structures/princeton/src/test/java/princeton/percolation/PercolationTest.java" />
         <option value="$PROJECT_DIR$/Topics/data-structures/princeton/src/main/java/princeton/QuickFind.java" />
         <option value="$PROJECT_DIR$/Theory/generics/src/main/java/com.pluralsight.generics/bounded_wildcards/InboundWildcard.java" />
-        <option value="$PROJECT_DIR$/Theory/generics/pom.xml" />
         <option value="$PROJECT_DIR$/Theory/generics/src/main/java/com.pluralsight.generics/bounded_wildcards/UpperBoundedWildcards.java" />
-        <option value="$PROJECT_DIR$/Theory/generics/src/test/java/com/pluralsight/generics/bounded_wildcards/InboundWildcardTest.java" />
         <option value="$PROJECT_DIR$/Theory/generics/src/main/java/com.pluralsight.generics/bounded_wildcards/LowerBoundedWildcard.java" />
         <option value="$PROJECT_DIR$/Topics/data-structures/src/main/java/com/preparation/structures/queue/Queue.java" />
+        <option value="$PROJECT_DIR$/Theory/generics/pom.xml" />
+        <option value="$PROJECT_DIR$/Theory/generics/src/test/java/com/pluralsight/generics/bounded_wildcards/InboundWildcardTest.java" />
       </list>
     </option>
   </component>
@@ -182,7 +191,14 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState />
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-1" />
@@ -366,10 +382,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
       </pane>
-      <pane id="PackagesPane">
+      <pane id="Scratches">
         <subPane />
       </pane>
       <pane id="ProjectPane">
@@ -856,15 +879,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+      <pane id="PackagesPane">
+        <subPane />
       </pane>
     </panes>
   </component>
@@ -906,33 +922,7 @@
       <recent name="$PROJECT_DIR$/Theory/strings/src/main/java/com/preparation/strings" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.InboundWildcardTest.shouldPopulateUsersList">
-    <configuration default="false" name="PercolationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="princeton.percolation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="princeton" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="princeton.percolation" />
-      <option name="MAIN_CLASS_NAME" value="princeton.percolation.PercolationTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.InboundWildcardTest">
     <configuration default="false" name="PercolationTest.shouldThrowErrorOnErroneousConstructorArgument" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -1019,6 +1009,32 @@
       <option name="MAIN_CLASS_NAME" value="com.pluralsight.generics.bounded_wildcards.InboundWildcardTest" />
       <option name="METHOD_NAME" value="shouldPopulateUsersList" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="InboundWildcardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.pluralsight.generics.bounded_wildcards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="generics" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.pluralsight.generics.bounded_wildcards" />
+      <option name="MAIN_CLASS_NAME" value="com.pluralsight.generics.bounded_wildcards.InboundWildcardTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -1319,19 +1335,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.PercolationTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldThrowErrorOnErroneousConstructorArgument" />
-      <item index="2" class="java.lang.String" itemvalue="Application.QuickSort" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest.listOfPersonsShouldBeSavedInQueue" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest.shouldPopulateUsersList" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldThrowErrorOnErroneousConstructorArgument" />
+      <item index="1" class="java.lang.String" itemvalue="Application.QuickSort" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest.listOfPersonsShouldBeSavedInQueue" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest.shouldPopulateUsersList" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest.shouldPopulateUsersList" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest.listOfPersonsShouldBeSavedInQueue" />
-        <item index="2" class="java.lang.String" itemvalue="Application.QuickSort" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldThrowErrorOnErroneousConstructorArgument" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.PercolationTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest.shouldPopulateUsersList" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.InboundWildcardTest.listOfPersonsShouldBeSavedInQueue" />
+        <item index="3" class="java.lang.String" itemvalue="Application.QuickSort" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.PercolationTest.shouldThrowErrorOnErroneousConstructorArgument" />
       </list>
     </recent_temporary>
   </component>
@@ -1532,12 +1548,13 @@
       <workItem from="1478369268328" duration="1597000" />
       <workItem from="1478372869084" duration="103000" />
       <workItem from="1478376814311" duration="3290000" />
+      <workItem from="1478411609842" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InboundWildcardTest_listOfPersonsShouldBeSavedInQueue - 2016.11.05 at 22h 32m 10s.xml">
-      <configuration name="InboundWildcardTest.listOfPersonsShouldBeSavedInQueue" configurationId="JUnit" />
+    <history-entry file="InboundWildcardTest - 2016.11.06 at 07h 55m 40s.xml">
+      <configuration name="InboundWildcardTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="InboundWildcardTest_listOfPersonsShouldBeSavedInQueue - 2016.11.05 at 22h 56m 42s.xml">
       <configuration name="InboundWildcardTest.listOfPersonsShouldBeSavedInQueue" configurationId="JUnit" />
@@ -1568,7 +1585,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="559229000" />
+    <option name="totallyTimeSpent" value="559363000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1591,7 +1608,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21504559" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.42424244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42424244" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3838384" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1936,7 +1953,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1963,15 +1979,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="71" column="17" selection-start-line="71" selection-start-column="17" selection-end-line="71" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Topics/data-structures/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1979,14 +1986,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Theory/generics/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -2034,10 +2033,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Topics/data-structures/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Theory/generics/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Theory/generics/src/test/java/com/pluralsight/generics/bounded_wildcards/InboundWildcardTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="47" column="15" selection-start-line="47" selection-start-column="15" selection-end-line="47" selection-end-column="15" />
+        <state relative-caret-position="216">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
