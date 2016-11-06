@@ -18,6 +18,7 @@
       <module fileurl="file://$PROJECT_DIR$/Theory/interfaces/interfaces.iml" filepath="$PROJECT_DIR$/Theory/interfaces/interfaces.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/interview/interview.iml" filepath="$PROJECT_DIR$/Topics/interview/interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/Theory/multithreading/multithreading.iml" filepath="$PROJECT_DIR$/Theory/multithreading/multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practice.iml" filepath="$PROJECT_DIR$/practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/data-structures/princeton/princeton.iml" filepath="$PROJECT_DIR$/Topics/data-structures/princeton/princeton.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/quizful/quizful.iml" filepath="$PROJECT_DIR$/Topics/quizful/quizful.iml" />
       <module fileurl="file://$PROJECT_DIR$/Topics/recursion/recursion.iml" filepath="$PROJECT_DIR$/Topics/recursion/recursion.iml" />

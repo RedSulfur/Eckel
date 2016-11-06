@@ -1,4 +1,4 @@
-package princeton;
+package princeton.week1;
 
 public class QuickFind {
 

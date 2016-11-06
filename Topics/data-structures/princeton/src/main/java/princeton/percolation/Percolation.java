@@ -1,24 +1,24 @@
 package princeton.percolation;
 
-import princeton.WeightedQuickUnionUF;
+import edu.princeton.cs.algs4.WeightedQuickUnionUF;
 
 public class Percolation {
 
     private static final int     NUMBER_OF_VIRTUAL_SITES = 2;
     private WeightedQuickUnionUF weightedQuickUnionUF;
     private boolean[][]          opened;
-    private final int            N;
-    private int                  VIRTUAL_TOP_SITE;
-    private int                  VIRTUAL_BOT_SITE;
+    private final int            n;
+    private int                  virtualTop;
+    private int                  virtualBotSite;
 
     public Percolation(int N) {
-        if(N <= 0) throw new IllegalStateException("Some interstellar stuff is going on");
-        this.N = N;
+        if(N <= 0) throw new IllegalArgumentException("Some interstellar stuff is going on");
+        this.n = N;
         opened = new boolean[N][N];
         int oneDimensionalArraySize = N * N + NUMBER_OF_VIRTUAL_SITES;
         weightedQuickUnionUF = new WeightedQuickUnionUF(oneDimensionalArraySize);
-        VIRTUAL_BOT_SITE = N * N - 1;
-        VIRTUAL_TOP_SITE = N * N;
+        virtualBotSite = N * N - 1;
+        virtualTop = N * N;
     }
 
     public void open(int row, int col) {
@@ -28,26 +28,26 @@ public class Percolation {
         int rowIndex = row - 1;
         int colIndex = col - 1;
 
-        if(row == 1) weightedQuickUnionUF.union(index, VIRTUAL_TOP_SITE);
-        if(row == N) weightedQuickUnionUF.union(index, VIRTUAL_BOT_SITE);
+        if (row == 1) weightedQuickUnionUF.union(index, virtualTop);
+        if (row == n) weightedQuickUnionUF.union(index, virtualBotSite);
 
         opened[rowIndex][colIndex] = true;
 
-        if(row != 1 && opened[rowIndex - 1][colIndex]) {
-            weightedQuickUnionUF.union(index, index - N);
+        if (row != 1 && opened[rowIndex - 1][colIndex]) {
+            weightedQuickUnionUF.union(index, index - n);
         }
-        if(col != 1 && opened[rowIndex][colIndex - 1]) {
+        if (col != 1 && opened[rowIndex][colIndex - 1]) {
             weightedQuickUnionUF.union(index, index - 1);
         }
-        if(col != N && opened[rowIndex][colIndex + 1]) {
+        if (col != n && opened[rowIndex][colIndex + 1]) {
             weightedQuickUnionUF.union(index, index + 1);
         }
-        if(row != N && opened[rowIndex + 1][colIndex]) {
-            weightedQuickUnionUF.union(index, index + N);
+        if (row != n && opened[rowIndex + 1][colIndex]) {
+            weightedQuickUnionUF.union(index, index + n);
         }
     }
 
-    private int find(int row, int col) {
+    public int find(int row, int col) {
         int index = calculateIndex(row, col);
         return weightedQuickUnionUF.find(index);
     }
@@ -61,15 +61,18 @@ public class Percolation {
 
     public boolean isFull(int row, int col) {
         int index = calculateIndex(row, col);
-        return weightedQuickUnionUF.find(index) == weightedQuickUnionUF.find(VIRTUAL_TOP_SITE);
+        int rowIndex = row - 1;
+        int colIndex = col - 1;
+        if(!isInputInBounds(rowIndex, colIndex)) throw new IndexOutOfBoundsException();
+        return weightedQuickUnionUF.find(index) == weightedQuickUnionUF.find(virtualTop);
     }
 
     public boolean percolates() {
-        return weightedQuickUnionUF.connected(VIRTUAL_BOT_SITE, VIRTUAL_TOP_SITE);
+        return weightedQuickUnionUF.connected(virtualBotSite, virtualTop);
     }
 
     private int calculateIndex(int row, int col) {
-        return (row - 1) * N + (col - 1);
+        return (row - 1) * n + (col - 1);
     }
 
     public static void main(String[] args) {
@@ -81,10 +84,10 @@ public class Percolation {
     }
 
     private boolean isRowIndexInBounds(int row) {
-        return row < N && row > -1;
+        return row < n && row > -1;
     }
 
     private boolean isColIndexInBounds(int col) {
-        return col < N && col > -1;
+        return col < n && col > -1;
     }
 }

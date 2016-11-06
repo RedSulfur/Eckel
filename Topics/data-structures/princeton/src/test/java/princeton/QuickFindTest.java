@@ -2,6 +2,7 @@ package princeton;
 
 import org.junit.Before;
 import org.junit.Test;
+import princeton.week1.QuickFind;
 
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;

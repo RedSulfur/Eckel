@@ -1,6 +1,8 @@
 package princeton.percolation;
 
-
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+import edu.princeton.cs.algs4.StdStats;
 
 public class PercolationStats {
     private static final double DEFAULT_MULTIPLIER = 1.96;

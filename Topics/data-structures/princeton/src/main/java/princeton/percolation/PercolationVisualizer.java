@@ -1,9 +1,7 @@
-package princeton.percolation;
-
-/****************************************************************************
- * Compilation:  javac src.ProgrammingAssignment1.PercolationVisualizer.java
- * Execution:    java src.ProgrammingAssignment1.PercolationVisualizer input.txt
- * Dependencies: src.ProgrammingAssignment1.Percolation.java StdDraw.java In.java
+package princeton.percolation; /****************************************************************************
+ * Compilation:  javac src.ProgrammingAssignment1.princeton.percolation.PercolationVisualizer.java
+ * Execution:    java src.ProgrammingAssignment1.princeton.percolation.PercolationVisualizer input.txt
+ * Dependencies: src.ProgrammingAssignment1.princeton.percolation.Percolation.java StdDraw.java In.java
  * <p>
  * This program takes the name of a file as a command-line argument.
  * From that file, it
@@ -17,9 +15,8 @@ package princeton.percolation;
  * with with site (1, 1) in the upper left-hand corner.
  ****************************************************************************/
 
-import assignment1.Percolation;
-import edu.princeton.cs.introcs.In;
-import edu.princeton.cs.introcs.StdDraw;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdDraw;
 
 import java.awt.*;
 

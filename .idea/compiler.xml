@@ -56,6 +56,7 @@
       <module name="interview" target="1.8" />
       <module name="multithreading" target="1.8" />
       <module name="NIO" target="1.8" />
+      <module name="practice" target="1.5" />
       <module name="Preparation" target="1.5" />
       <module name="princeton" target="1.8" />
       <module name="quizful" target="1.8" />

@@ -2,6 +2,7 @@ package princeton;
 
 import org.junit.Before;
 import org.junit.Test;
+import princeton.week1.WeightedQuickUnionUF;
 
 public class WeightedQuickUnionTest {
 

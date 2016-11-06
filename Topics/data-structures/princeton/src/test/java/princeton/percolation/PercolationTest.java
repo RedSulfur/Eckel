@@ -77,9 +77,9 @@ public class PercolationTest {
         assertTrue(percolation.isOpen(2, 2));
         assertTrue(percolation.isOpen(2, 3));
 
-//        assertThat(percolation.find(3, 2), is(5));
-//        assertThat(percolation.find(2, 2), is(5));
-//        assertThat(percolation.find(2, 3), is(5));
+        assertThat(percolation.find(3, 2), is(5));
+        assertThat(percolation.find(2, 2), is(5));
+        assertThat(percolation.find(2, 3), is(5));
     }
 
     @Test
@@ -107,7 +107,7 @@ public class PercolationTest {
     
     @Test
     public void shouldThrowErrorOnErroneousConstructorArgument() {
-        exception.expect(IllegalStateException.class);
+        exception.expect(IllegalArgumentException.class);
         exception.expectMessage("Some interstellar stuff is going on");
         new Percolation(-5);
     }
