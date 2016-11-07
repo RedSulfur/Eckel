@@ -8,8 +8,5 @@ public class FindValue {
 
     List<Integer> result = new ArrayList<>();
 
-    public int[] find(int[] input, int target) {
 
-        find(input, target);
-    }
 }
