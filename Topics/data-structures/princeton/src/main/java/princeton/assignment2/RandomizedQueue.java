@@ -77,6 +77,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
 
         @Override
         public Item next() {
+            if(!hasNext()) throw new NoSuchElementException("You cannot dequeue from an empty queue");
             return randomizedQueue.dequeue();
         }
 
