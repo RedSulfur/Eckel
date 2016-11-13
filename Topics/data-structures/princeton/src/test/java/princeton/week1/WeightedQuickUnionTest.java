@@ -1,4 +1,4 @@
-package princeton;
+package princeton.week1;
 
 import org.junit.Before;
 import org.junit.Test;
