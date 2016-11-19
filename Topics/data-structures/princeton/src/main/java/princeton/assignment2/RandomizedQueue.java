@@ -14,7 +14,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         array = (Item[]) new Object[1];
     }
 
-    public RandomizedQueue(Item[] items, int queueSize) {
+    private RandomizedQueue(Item[] items, int queueSize) {
         this.array = (Item[]) new Object[queueSize];
         System.arraycopy(items, 0, array, 0, array.length); //queueSize?
         this.queueSize = queueSize;
@@ -65,7 +65,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         return new ListIterator<>();
     }
 
-    public class ListIterator<Item> implements Iterator<Item> {
+    private class ListIterator<Item> implements Iterator<Item> {
 
         private RandomizedQueue<Item> randomizedQueue =
                 new RandomizedQueue<>((Item[]) array, queueSize);
