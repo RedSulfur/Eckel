@@ -71,29 +71,22 @@ public class FastCollinearPoints {
 
         Arrays.sort(points);
         System.out.println("*********POINTS**********");
-
         Arrays.stream(points).forEach(System.out::println);
-
         System.out.println("*******************");
+
+
         for (int i = 0; i < points.length; i++) {
             Point p = points[i];
-            double[] slopes = new double[points.length - i + 1];
-            int count = 0;
-            System.out.println("points[" + i + "] = " + points[i]);
-            for (int j = i + 1; j < points.length; j++) {
-                Point q = points[j];
-                slopes[count] = p.slopeTo(q);
-                System.out.println("slopes[" + count + "] = " + slopes[count]);
-                count++;
-            }
-            Arrays.sort(slopes);
-            System.out.println("slopes for every other point: ");
 
-            System.out.println("*********SLOPES**********");
+            Point[] adjacentPoints = Arrays.copyOfRange(points, i + 1, points.length);
+            Arrays.sort(adjacentPoints, p.slopeOrder());
 
-            Arrays.stream(slopes).forEach(System.out::println);
-
+            System.out.println();
+            System.out.println("*********ADJACENT POINTS**********");
+            System.out.println("********SORTED BY SLOPES**********");
+            Arrays.stream(points).forEach(System.out::println);
             System.out.println("*******************");
+
         }
 
         System.out.println("Line segments:");
