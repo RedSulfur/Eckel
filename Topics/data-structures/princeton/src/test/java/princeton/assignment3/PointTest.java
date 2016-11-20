@@ -5,15 +5,15 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Objects;
 import java.util.function.BiFunction;
-import java.util.function.DoubleUnaryOperator;
 
 import static java.util.Arrays.asList;
 import static org.hamcrest.Matchers.is;
 import static org.junit.Assert.assertThat;
 
 public class PointTest {
+
+    private final BiFunction<Point, Point, Double> pointIntegerFunction = Point::slopeTo;
 
     @Test
     public void compareShouldReturnOneIfFirstPointIsHigher() {
@@ -89,16 +89,13 @@ public class PointTest {
     @Test
     public void streamTest() {
 
-        List<Point> points = Arrays.asList(new Point(2, 5), new Point(2, 4), new Point(4, 6), new Point(2, 6),
+        List<Point> points = Arrays.asList(new Point(4000, 30000), new Point(3500, 28000), new Point(4, 6), new Point(2, 6),
                 new Point(4, 8), new Point(6, 10), new Point(8, 12), new Point(4, 12), new Point(7, 3));
         Point[] pointArray =(Point []) points.toArray();
 
         List<LineSegment> lineSegments = new ArrayList<>();
 
         for (int i = 0; i < pointArray.length - 3; i++) {
-            System.out.println("In for loop addLineSegments(lineSegments, pointArray[i],\n" +
-                    "                    pointArray[i + 1], pointArray[i + 2], pointArray[i + 3]);" + i +" "
-                    + i + 1 + " " + i + 2 + " " + i + 3);
             addLineSegments(lineSegments, pointArray[i],
                     pointArray[i + 1], pointArray[i + 2], pointArray[i + 3]);
         }
@@ -107,18 +104,8 @@ public class PointTest {
     }
 
     private void addLineSegments(List<LineSegment> lineSegments, Point... points) {
-        if(getSlope(points[0], points[1]) == getSlope(points[0], points[2])
-                && getSlope(points[0], points[1]) == getSlope(points[0], points[3])) {
-
-            System.out.println("(points[0], points[1]): " + points[0] + points[1]);
-            System.out.println("(points[0], points[2]): " + points[0] + points[2]);
-            System.out.println("(points[0], points[3]): " + points[0] + points[3]);
-
-            System.out.println();
-
-            System.out.println("getSlope(Point p1, Point p2): " + getSlope(points[0], points[1]));
-            System.out.println("getSlope(Point p1, Point p2): " + getSlope(points[0], points[2]));
-            System.out.println("getSlope(Point p1, Point p2): " + getSlope(points[0], points[3]));
+        if(isSlopeBetweenPointsEqual(points[0], points[1], points[2])
+                && isSlopeBetweenPointsEqual(points[0], points[1], points[3])) {
 
             lineSegments.add(new LineSegment(points[0], points[1]));
             lineSegments.add(new LineSegment(points[1], points[2]));
@@ -126,12 +113,13 @@ public class PointTest {
         }
     }
 
-    private final BiFunction<Point, Point, Double> pointIntegerFunction = Point::slopeTo;
+    private boolean isSlopeBetweenPointsEqual(Point p1, Point p2, Point p3) {
+        return getSlope(p1, p2) == getSlope(p1, p3);
+    }
 
     private double getSlope(Point p1, Point p2) {
         return pointIntegerFunction.apply(p1, p2);
     }
-
     //Objects.equals(pointIntegerFunction.apply(points[0], points[1]),
 //                pointIntegerFunction.apply(points[0], points[2]));
 }
