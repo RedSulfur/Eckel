@@ -14,13 +14,14 @@ import java.util.stream.Stream;
 import static java.nio.file.Files.lines;
 import static java.nio.file.Paths.get;
 
-public class BruteCollinearPoints {
+@SuppressWarnings("Duplicates")
+public class FastCollinearPoints {
 
     private final static int MAX_SCALE_VALUE = 32768;
     /**
      * Constant holding radius for points drawing
      */
-    private static final double POINT_RADIUS = 0.003;
+    private static final double POINT_RADIUS = 0.01;
     /**
      * Constant holding radius for lines drawing
      */
@@ -42,7 +43,7 @@ public class BruteCollinearPoints {
 
         StdDraw.setPenRadius(LINE_RADIUS);
 
-        BruteCollinearPoints bruteCollinearPoints = new BruteCollinearPoints(points);
+        new FastCollinearPoints(points);
     }
 
     private static void populatePointsArray() throws IOException {
@@ -50,7 +51,7 @@ public class BruteCollinearPoints {
 
         Stream<String> stream = lines(get("/home/serhii/old-system/" +
                 "old-system/IdeaProjects/Eckel/Topics/data-structures/princeton/" +
-                "src/main/java/princeton/assignment3/rs1423.txt"));
+                "src/main/java/princeton/assignment3/input10.txt"));
         List<String> strings = stream.skip(1).collect(Collectors.toList());
         List<Point> pointsList = strings.stream().map(s -> {
             Matcher m = p.matcher(s);
@@ -64,46 +65,72 @@ public class BruteCollinearPoints {
         points = pointsList.toArray(new Point[pointsList.size()]);
     }
 
-    public BruteCollinearPoints(Point[] points)  {
-//        this.points = points;
+    public FastCollinearPoints(Point[] points)  {
 
         List<LineSegment> listOfLineSegments = new ArrayList<>();
 
         Arrays.sort(points);
+        System.out.println("*********POINTS**********");
 
+        Arrays.stream(points).forEach(System.out::println);
+
+        System.out.println("*******************");
         for (int i = 0; i < points.length; i++) {
             Point p = points[i];
+            double[] slopes = new double[points.length - i + 1];
+            int count = 0;
+            System.out.println("points[" + i + "] = " + points[i]);
             for (int j = i + 1; j < points.length; j++) {
                 Point q = points[j];
-                double slopePQ = p.slopeTo(q);
-                for (int k = j + 1; k < points.length; k++) {
-                    Point r = points[k];
-                    double slopePR = p.slopeTo(r);
-                    if (slopePQ != slopePR) continue;
-                    for (int l = k + 1; l < points.length; l++) {
-                        Point s = points[l];
-                        double slopePS = p.slopeTo(s);
-                        if (slopePQ == slopePR && slopePQ == slopePS) {
-                            addLineSegment(listOfLineSegments, p, q, r, s);
-                            p.drawTo(s);
-                        }
-                    }
-                }
+                slopes[count] = p.slopeTo(q);
+                System.out.println("slopes[" + count + "] = " + slopes[count]);
+                count++;
             }
+            Arrays.sort(slopes);
+            System.out.println("slopes for every other point: ");
+
+            System.out.println("*********SLOPES**********");
+
+            Arrays.stream(slopes).forEach(System.out::println);
+
+            System.out.println("*******************");
         }
 
         System.out.println("Line segments:");
         listOfLineSegments.forEach(System.out::println);
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     private void addLineSegment(List<LineSegment> lineSegments, Point... points) {
-        System.out.println("points[0]" + points[0]);
-        System.out.println("points[1]" + points[1]);
-        System.out.println("points[2]" + points[2]);
-        System.out.println("points[3]" + points[3]);
-        System.out.println("points[0].slopeTo(points[1])" + points[0].slopeTo(points[1]));
-        System.out.println("points[0].slopeTo(points[2])" + points[0].slopeTo(points[2]));
-        System.out.println("points[0].slopeTo(points[3])" + points[0].slopeTo(points[3]));
+        System.out.println("points[0]: " + points[0]);
+        System.out.println("points[1]: " + points[1]);
+        System.out.println("points[2]: " + points[2]);
+        System.out.println("points[3]: " + points[3]);
+        System.out.println("points[0].slopeTo(points[1]) = " + points[0].slopeTo(points[1]));
+        System.out.println("points[0].slopeTo(points[2]) = " + points[0].slopeTo(points[2]));
+        System.out.println("points[0].slopeTo(points[3]) = " + points[0].slopeTo(points[3]));
 
         lineSegments.add(new LineSegment(points[0], points[1]));
         lineSegments.add(new LineSegment(points[1], points[2]));
