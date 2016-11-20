@@ -54,6 +54,8 @@ public class BruteCollinearPoints {
         BruteCollinearPoints bruteCollinearPoints = new BruteCollinearPoints(points);
     }
 
+
+
     public BruteCollinearPoints(Point[] points)  {
 //        this.points = points;
 
