@@ -4,7 +4,7 @@ import edu.princeton.cs.algs4.StdDraw;
 
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -13,6 +13,8 @@ import java.util.stream.Stream;
 
 import static java.nio.file.Files.lines;
 import static java.nio.file.Paths.get;
+import static java.util.Arrays.copyOfRange;
+import static java.util.Arrays.sort;
 
 @SuppressWarnings("Duplicates")
 public class FastCollinearPoints {
@@ -21,7 +23,7 @@ public class FastCollinearPoints {
     /**
      * Constant holding radius for points drawing
      */
-    private static final double POINT_RADIUS = 0.01;
+    private static final double POINT_RADIUS = 0.003;
     /**
      * Constant holding radius for lines drawing
      */
@@ -43,7 +45,7 @@ public class FastCollinearPoints {
 
         StdDraw.setPenRadius(LINE_RADIUS);
 
-        new FastCollinearPoints(points);
+        new BruteCollinearPoints(points);
     }
 
     private static void populatePointsArray() throws IOException {
@@ -51,7 +53,7 @@ public class FastCollinearPoints {
 
         Stream<String> stream = lines(get("/home/serhii/old-system/" +
                 "old-system/IdeaProjects/Eckel/Topics/data-structures/princeton/" +
-                "src/main/java/princeton/assignment3/input10.txt"));
+                "src/main/java/princeton/assignment3/rs1423.txt"));
         List<String> strings = stream.skip(1).collect(Collectors.toList());
         List<Point> pointsList = strings.stream().map(s -> {
             Matcher m = p.matcher(s);
@@ -68,29 +70,33 @@ public class FastCollinearPoints {
     public FastCollinearPoints(Point[] points)  {
 
         List<LineSegment> listOfLineSegments = new ArrayList<>();
-
-        Arrays.sort(points);
-        System.out.println("*********POINTS**********");
-        Arrays.stream(points).forEach(System.out::println);
-        System.out.println("*******************");
-
-
+        LinkedList<Point> pointLinkedList = new LinkedList<>();
         for (int i = 0; i < points.length; i++) {
             Point p = points[i];
 
-            Point[] adjacentPoints = Arrays.copyOfRange(points, i + 1, points.length);
-            Arrays.sort(adjacentPoints, p.slopeOrder());
+            Point[] adjacentPoints = copyOfRange(points, i + 1, points.length);
+            sort(adjacentPoints, p.slopeOrder());
 
-            System.out.println();
-            System.out.println("*********ADJACENT POINTS**********");
-            System.out.println("********SORTED BY SLOPES**********");
-            Arrays.stream(points).forEach(System.out::println);
-            System.out.println("*******************");
+            for (int j = 0; j < adjacentPoints.length - 2; j++) {
+                double slopePQ = p.slopeTo(adjacentPoints[j]);
+                double slopePR = p.slopeTo(adjacentPoints[j + 1]);
+                double slopePS = p.slopeTo(adjacentPoints[j + 2]);
 
+                if (slopePQ == slopePR && slopePQ == slopePS) {
+                    listOfLineSegments.add(new LineSegment(p, adjacentPoints[j]));
+                    listOfLineSegments.add(new LineSegment(adjacentPoints[j], adjacentPoints[j + 1]));
+                    listOfLineSegments.add(new LineSegment(adjacentPoints[j + 1], adjacentPoints[j + 2]));
+                    pointLinkedList.addLast(adjacentPoints[j + 2]);
+                    j += 3;
+
+                    while (j > 0 && j < adjacentPoints.length
+                            && slopePQ == p.slopeTo(adjacentPoints[j])) {
+                        pointLinkedList.addLast(adjacentPoints[j++]);
+                    }
+                    p.drawTo(pointLinkedList.pollLast());
+                }
+            }
         }
-
-        System.out.println("Line segments:");
-        listOfLineSegments.forEach(System.out::println);
     }
 
 
