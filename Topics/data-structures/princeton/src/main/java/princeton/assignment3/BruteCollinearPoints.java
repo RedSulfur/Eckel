@@ -25,7 +25,7 @@ public class BruteCollinearPoints {
     /**
      * Constant holding radius for points drawing
      */
-    private static final double POINT_RADIUS = 0.02;
+    private static final double POINT_RADIUS = 0.003;
     /**
      * Constant holding radius for lines drawing
      */
@@ -38,15 +38,11 @@ public class BruteCollinearPoints {
         StdDraw.setXscale(0, MAX_SCALE_VALUE);
         StdDraw.setYscale(0, MAX_SCALE_VALUE);
         StdDraw.setPenRadius(POINT_RADIUS);
-        In input = new In(args[0]);
-        int n = input.readInt();
-        Point[] points = new Point[n];
-        for (int i = 0; !input.isEmpty(); i++) {
-            int x = input.readInt();
-            int y = input.readInt();
-            Point point = new Point(x, y);
+
+        populatePointsArray();
+
+        for (Point point : points) {
             point.draw();
-            points[i] = point;
         }
 
         StdDraw.setPenRadius(LINE_RADIUS);
@@ -54,7 +50,24 @@ public class BruteCollinearPoints {
         BruteCollinearPoints bruteCollinearPoints = new BruteCollinearPoints(points);
     }
 
+    private static void populatePointsArray() throws IOException {
+        Pattern p = Pattern.compile("\\d+");
 
+        Stream<String> stream = lines(get("/home/serhii/old-system/" +
+                "old-system/IdeaProjects/Eckel/Topics/data-structures/princeton/" +
+                "src/main/java/princeton/assignment3/rs1423.txt"));
+        List<String> strings = stream.skip(1).collect(Collectors.toList());
+        List<Point> pointsList = strings.stream().map(s -> {
+            Matcher m = p.matcher(s);
+            List<String> list = new ArrayList<>();
+            while (m.find()) {
+                list.add(m.group(0));
+            }
+            return new Point(Integer.valueOf(list.get(0)), Integer.valueOf(list.get(1)));
+        }).collect(Collectors.toList());
+
+        points = pointsList.toArray(new Point[pointsList.size()]);
+    }
 
     public BruteCollinearPoints(Point[] points)  {
 //        this.points = points;
@@ -63,7 +76,7 @@ public class BruteCollinearPoints {
 
         Arrays.sort(points);
 
-        for (int i = 0; i < points.length - 3; i++) { //TODO: what is the upper bound
+        for (int i = 0; i < points.length; i++) {
             Point p = points[i];
             for (int j = i + 1; j < points.length; j++) {
                 Point q = points[j];
