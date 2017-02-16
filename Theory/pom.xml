@@ -27,6 +27,8 @@
         <module>multithreading</module>
         <module>references</module>
         <module>generics</module>
+        <module>ocp</module>
+        <module>fowler-architecture</module>
     </modules>
 
 

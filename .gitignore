@@ -1,6 +1,9 @@
 .idea/
 .out/
-/.gitignore
+out
+.gitignore
 **/target/
 *.class
 *.iml
+/Topics/data-structures/princeton/src/main/java/princeton/assignment3/zip/
+/Topics/data-structures/princeton/src/main/java/princeton/assignment4/zip/

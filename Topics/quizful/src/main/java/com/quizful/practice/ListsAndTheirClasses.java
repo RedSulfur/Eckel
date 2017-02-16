@@ -1,15 +1,22 @@
 package com.quizful.practice;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
 
 public class ListsAndTheirClasses {
 
     public static void main(String[] args) {
-        Class stringClass = new ArrayList<String>().getClass();
-        Class integerClass = new ArrayList<Integer>().getClass();
+        final List<Integer> list = new ArrayList<Integer>();
 
-        System.out.println(stringClass);
-        System.out.println(integerClass);
-        System.out.println(stringClass == integerClass);
+        Collections.addAll(list, 1, 5, 2, 3, 7, 3, 8, 9);
+
+        final Integer pos = Integer.valueOf(3);
+
+        list.remove(pos);
+
+        System.out.println(list);
     }
+
 }

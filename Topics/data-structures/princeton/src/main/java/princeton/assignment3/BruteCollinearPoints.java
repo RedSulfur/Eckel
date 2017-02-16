@@ -1,7 +1,9 @@
 package princeton.assignment3;
 
+import edu.princeton.cs.algs4.StdOut;
+
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 @SuppressWarnings("Duplicates")
@@ -34,23 +36,35 @@ public class BruteCollinearPoints {
 
         List<LineSegment> listOfLineSegments = new ArrayList<>();
 
-        Arrays.sort(points);
+        int pointsCount = points.length;
 
-        for (int i = 0; i < points.length; i++) {
-            Point p = points[i];
-            for (int j = i + 1; j < points.length; j++) {
-                Point q = points[j];
-                double slopePQ = p.slopeTo(q);
-                for (int k = j + 1; k < points.length; k++) {
-                    Point r = points[k];
-                    double slopePR = p.slopeTo(r);
-                    if (slopePQ != slopePR) continue;
-                    for (int l = k + 1; l < points.length; l++) {
-                        Point s = points[l];
-                        double slopePS = p.slopeTo(s);
-                        if (slopePQ == slopePR && slopePQ == slopePS) {
-                            addLineSegment(listOfLineSegments, p, q, r, s);
-                            p.drawTo(s);
+        for (int p = 0; p < pointsCount; p++) {
+            for (int q = p + 1; q < pointsCount; q++) {
+                double slopeToQ = points[p].slopeTo(points[q]);
+                for (int r = q + 1; r < pointsCount; r++) {
+                    double slopeToR = points[p].slopeTo(points[r]);
+                    if (slopeToQ == slopeToR) {
+                        for (int s = r + 1; s < pointsCount; s++) {
+                            double slopeToS = points[p].slopeTo(points[s]);
+                            if (slopeToQ == slopeToS) {
+                                // Create the list of collinear points and sort them.
+                                List<Point> collinearPoints = new ArrayList<Point>(4);
+                                collinearPoints.add(points[p]);
+                                collinearPoints.add(points[q]);
+                                collinearPoints.add(points[r]);
+                                collinearPoints.add(points[s]);
+                                Collections.sort(collinearPoints);
+                                // Display collinear points.
+                                for (int i = 0; i < 3; i++) {
+                                    StdOut.print(collinearPoints.get(i));
+                                    StdOut.print(" -> ");
+                                }
+                                StdOut.println(Collections.max(collinearPoints));
+                                Collections.min(collinearPoints).drawTo(Collections.max(collinearPoints));
+                                listOfLineSegments
+                                        .add(new LineSegment(Collections.min(collinearPoints),
+                                                Collections.max(collinearPoints)));
+                            }
                         }
                     }
                 }
@@ -59,17 +73,15 @@ public class BruteCollinearPoints {
         lineSegments = listOfLineSegments.toArray(new LineSegment[listOfLineSegments.size()]);
     }
 
-    private void addLineSegment(List<LineSegment> segments, Point... points) {
-        segments.add(new LineSegment(points[0], points[1]));
-        segments.add(new LineSegment(points[1], points[2]));
-        segments.add(new LineSegment(points[2], points[3]));
-    }
-
     public int numberOfSegments() {
         return lineSegments.length;
     }
 
     public LineSegment[] segments() {
+        return this.getLineSegments();
+    }
+
+    private LineSegment[] getLineSegments() {
         return lineSegments;
     }
 }
