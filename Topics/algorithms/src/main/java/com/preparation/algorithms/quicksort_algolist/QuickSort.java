@@ -2,6 +2,7 @@ package com.preparation.algorithms.quicksort_algolist;
 
 import java.util.Arrays;
 
+@SuppressWarnings("Duplicates")
 public class QuickSort {
 
     private int i, j, pivot;

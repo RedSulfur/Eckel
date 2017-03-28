@@ -29,6 +29,7 @@
         <module>generics</module>
         <module>ocp</module>
         <module>fowler-architecture</module>
+        <module>enums</module>
     </modules>
 
 

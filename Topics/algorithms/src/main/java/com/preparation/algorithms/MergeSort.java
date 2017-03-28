@@ -3,6 +3,7 @@ package com.preparation.algorithms;
 
 import java.util.Arrays;
 
+@SuppressWarnings("Duplicates")
 public class MergeSort {
     public static void main(String a[]) {
 
@@ -36,8 +37,8 @@ public class MergeSort {
         int iSecond = 0;
         int j = 0;
 
-        while (iFirst < first.length
-                && iSecond < second.length) {
+        while (iFirst < first.length &&
+                iSecond < second.length) {
             if(first[iFirst] < second[iSecond]) {
                 result[j] = first[iFirst++];
             } else {
