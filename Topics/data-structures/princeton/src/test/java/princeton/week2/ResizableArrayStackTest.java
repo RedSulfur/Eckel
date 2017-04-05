@@ -1,3 +1,4 @@
+/*
 package princeton.week2;
 
 import org.junit.Before;
@@ -44,6 +45,4 @@ public class ResizableArrayStackTest {
         }
         assertThat(elementInStack, is("John"));
     }
-
-
-}
+}*/
