@@ -45,7 +45,7 @@ public class QuickSort {
 
             int pivotPosition = partitionArray(left, right, pivot);
 
-            quickSort(left,pivotPosition - 1);
+            quickSort(left, pivotPosition - 1);
             quickSort(pivotPosition + 1, right);
         }
 
@@ -60,10 +60,10 @@ public class QuickSort {
         while (true) {
 
             while (theArray[++leftPointer] < pivot)
-            ;
+                ;
 
             while (theArray[--rightPointer] > pivot && rightPointer > 0)
-            ;
+                ;
 
 
             if (leftPointer >= rightPointer) {
@@ -74,7 +74,7 @@ public class QuickSort {
 
             }
         }
-        swapValues(leftPointer,right);
+        swapValues(leftPointer, right);
         return leftPointer;
 
     }
