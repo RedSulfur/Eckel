@@ -11,12 +11,14 @@ public class QuickSort {
 
         int[] input = new int[]{1, 12, 5, 26, 7, 14, 3, 7, 2};
 
+        long currentTime = System.currentTimeMillis();
         System.out.println("Unsorted array: " + Arrays.toString(input));
         System.out.println();
         QuickSort quickSort = new QuickSort();
         quickSort.quickSort(input, 0, input.length - 1);
         System.out.println();
         System.out.println("Sorted array: " + Arrays.toString(input));
+        System.out.println("Time taken: " + (System.currentTimeMillis() - currentTime));
     }
 
     public void quickSort(int array[], int left, int right) {

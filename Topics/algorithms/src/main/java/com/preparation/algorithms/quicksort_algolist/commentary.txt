@@ -1,8 +1,11 @@
-System.out.println(Arrays.toString(arr));
-        System.out.println("Returning index i = " + i);
-        System.out.println("Returning index j = " + j);
-        if(i > -1 && j > -1) {
-            System.out.println("arr[i]  = " + arr[i]);
-            System.out.println("arr[j]  = " + arr[j]);
-        }
-        System.out.println();
+//    If during the quicksort we always take the leftmost element
+//    of the subarray as a pivot then if the array is already sorted
+//    we will end up in the situation when after the first partition
+//    there will be a single element in the left subarray and every
+//    other element in the right subarray. The second partition
+//    will increase the number of elements in the left subarray by
+//    by one and decrease this number by one in the right subarray
+//    and so on for each partition. That's why quicksort will take
+//    quadratic time in this situation in opposite to what we would
+//    we get if the array was randomly shuffled when devision into
+//    the subarrays would be approximately even.
